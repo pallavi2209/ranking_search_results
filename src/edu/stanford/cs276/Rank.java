@@ -48,10 +48,9 @@ public class Rank
 				@Override
 				public int compare(Pair<String, Double> o1, Pair<String, Double> o2) 
 				{
-					/*
-					 * @//TODO : Your code here
-					 */
-					return -1;
+					Double score1 = o1.getSecond();
+					Double score2 = o2.getSecond();
+					return score2.compareTo(score1);
 				}	
 			});
 			
@@ -126,11 +125,15 @@ public class Rank
 	{
 
 		Map<String,Double> idfs = null;
+		String corpusDir = "//Users//pallavi//projects//cs276-pa1//data";
+		String idfFile = "inverseDocFreqFile";
+//		// to build idf serialized file
+//		idfs = LoadHandler.buildDFs(corpusDir, idfFile);
+//		System.out.println("File written, now exiting");
+//		System.exit(0);
 		
-		/*
-		 * @//TODO : Your code here to handle idfs
-		 */
-		
+		//to load idfs
+		idfs = LoadHandler.loadDFs(idfFile);
 		
 		if (args.length < 2) {
 			System.err.println("Insufficient number of arguments: <queryDocTrainData path> taskType");
@@ -158,8 +161,8 @@ public class Rank
 		Map<Query,List<String>> queryRankings = score(queryDict,scoreType,idfs);
 		
 		//print results and save them to file 
-//		String outputFilePath =  null;
-//		writeRankedResultsToFile(queryRankings,outputFilePath);
+		String outputFilePath =  "cosineRankingFile";
+		writeRankedResultsToFile(queryRankings,outputFilePath);
 		
 		//print results
 		printRankedResults(queryRankings);

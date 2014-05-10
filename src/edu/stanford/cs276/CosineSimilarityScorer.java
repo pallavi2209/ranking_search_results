@@ -14,6 +14,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.Map.Entry;
 
 public class CosineSimilarityScorer extends AScorer
 {
@@ -22,12 +23,18 @@ public class CosineSimilarityScorer extends AScorer
 		super(idfs);
 	}
 	
+	public static final String URL = "url";
+	public static final String TITLE = "title";
+	public static final String BODY = "body";
+	public static final String HEADER = "header";
+	public static final String ANCHOR = "anchor";
+	
 	///////////////weights///////////////////////////
-    double urlweight = -1;
-    double titleweight  = -1;
-    double bodyweight = -1;
-    double headerweight = -1;
-    double anchorweight = -1;
+    double urlweight = 1d;
+    double titleweight  = 2d;
+    double bodyweight = 0.7d;
+    double headerweight = 1.5d;
+    double anchorweight = 3d;
     
     double smoothingBodyLength = -1;
     //////////////////////////////////////////
@@ -35,10 +42,40 @@ public class CosineSimilarityScorer extends AScorer
 	public double getNetScore(Map<String,Map<String, Double>> tfs, Query q, Map<String,Double> tfQuery,Document d)
 	{
 		double score = 0.0;
-		
-		/*
-		 * @//TODO : Your code here
-		 */
+		// net score = qvq ·(cu·tfu +ct·tft+ cb·tfb + ch·tfh + ca·tfa)
+		for (String query_word : q.queryWords) {
+			double tfQueryWord;
+			double tfDocUrl = 0.0d, tfDocTitle = 0.0d, tfDocBody= 0.0d, tfDocHeader= 0.0d, tfDocAnchor= 0.0d; 
+			tfQueryWord = tfQuery.get(query_word);
+			if(tfs.containsKey(URL)){
+				if(tfs.get(URL).containsKey(query_word)){
+					tfDocUrl = tfs.get(URL).get(query_word);
+				}
+			}
+			if(tfs.containsKey(TITLE)){
+				if(tfs.get(TITLE).containsKey(query_word)){
+					tfDocTitle = tfs.get(TITLE).get(query_word);
+				}
+			}
+			if(tfs.containsKey(BODY)){
+				if(tfs.get(BODY).containsKey(query_word)){
+					tfDocBody = tfs.get(BODY).get(query_word);
+				}
+			}
+			if(tfs.containsKey(HEADER)){
+				if(tfs.get(HEADER).containsKey(query_word)){
+					tfDocHeader = tfs.get(HEADER).get(query_word);
+				}
+			}
+			if(tfs.containsKey(ANCHOR)){
+				if(tfs.get(ANCHOR).containsKey(query_word)){
+					tfDocAnchor = tfs.get(ANCHOR).get(query_word);
+				}
+			}
+			
+			Double termScore = tfQueryWord*((urlweight*tfDocUrl) + (titleweight*tfDocTitle) + (bodyweight*tfDocBody) + (headerweight*tfDocHeader) + (anchorweight*tfDocAnchor));
+			score+= termScore;
+		}
 		
 		return score;
 	}
@@ -46,28 +83,26 @@ public class CosineSimilarityScorer extends AScorer
 	
 	public void normalizeTFs(Map<String,Map<String, Double>> tfs,Document d, Query q)
 	{
-		/*
-		 * @//TODO : Your code here
-		 */
+		Double doc_length = (double)(d.body_length + 500);
+		for (Entry<String,Map<String, Double>> tfTypeEntry : tfs.entrySet()) {
+			String tf_type = tfTypeEntry.getKey();
+			for (Entry<String, Double> tfEntry : tfTypeEntry.getValue().entrySet()) {
+				String query_word = tfEntry.getKey();
+				Double value = tfEntry.getValue();
+				Double norm_value = value/doc_length;
+				tfs.get(tf_type).put(query_word, norm_value);
+			}
+		}
 	}
 
 	
 	@Override
 	public double getSimScore(Document d, Query q) 
 	{
-		
 		Map<String,Map<String, Double>> tfs = this.getDocTermFreqs(d,q);
-		
 		this.normalizeTFs(tfs, d, q);
-		
 		Map<String,Double> tfQuery = getQueryFreqs(q);
-		
-		
         return getNetScore(tfs,q,tfQuery,d);
 	}
 
-	
-	
-	
-	
 }

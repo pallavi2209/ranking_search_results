@@ -3,6 +3,7 @@ package edu.stanford.cs276;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
@@ -14,10 +15,12 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public class LoadHandler 
 {
+	public static final String termNotPresent = "INVALID: TERM-NOT-PRESENT";
 	
 	public static Map<Query,Map<String, Document>> loadTrainData(String feature_file_name) throws Exception {
 		File feature_file = new File(feature_file_name);
@@ -119,7 +122,7 @@ public class LoadHandler
 	}
 	
 	//builds and then serializes from file
-	public static Map<String,Double> buildDFs(String dataDir, String idfFile)
+	public static Map<String,Double> buildDFs(String dataDir, String idfFile) throws IOException
 	{
 		
 		/* Get root directory */
@@ -131,25 +134,71 @@ public class LoadHandler
 		}
 		
 		File[] dirlist = rootdir.listFiles();
-
 		int totalDocCount = 0;
+		Double INCR = 1.0d;
 		
+		Map<String, List<Integer>> termDocIds = new HashMap<String, List<Integer>>();
 		//counts number of documents in which each term appears
 		Map<String,Double> termDocCount = new HashMap<String,Double>();
 		
-		/*
-		 * @//TODO : Your code here --consult pa1 (will be basically a simplified version)
-		 */
+		
+		for (File dir : dirlist) {
+			if(!dir.isDirectory()){
+				continue;
+			}
+			
+			File[] fileList = dir.listFiles();
+			for (File file : fileList) {
+				if(".DS_Store".equals(file.getName())){
+					continue;
+				}
+				totalDocCount++;
+				BufferedReader reader  = new BufferedReader(new FileReader(file));
+				String line;
+				while ((line = reader.readLine()) != null) {
+					String[] terms = line.trim().split("\\s+");
+					for (String term : terms) {
+						List<Integer> listdocIds = null;
+						if (termDocIds.containsKey(term)) {
+							listdocIds = termDocIds.get(term);
+							if (!listdocIds.contains(totalDocCount)) {
+								listdocIds.add(totalDocCount);
+							}
+						} else {
+							listdocIds = new ArrayList<Integer>();
+							listdocIds.add(totalDocCount);
+						}
+						termDocIds.put(term, listdocIds);
+					}
+
+				}
+				reader.close();
+			}
+		}
+		
+		
+		
+		for (Entry<String, List<Integer>> entry : termDocIds.entrySet()) {
+			String term  = entry.getKey();
+			Double count  = (double)entry.getValue().size();
+			termDocCount.put(term, count);
+		}
 		
 		System.out.println(totalDocCount);
+//		System.out.println(termDocCount.size());
 		
 		//make idf
 		for (String term : termDocCount.keySet())
 		{
-			/*
-			 * @//TODO : Your code here
-			 */
+			// Laplace smoothing also.
+			Double countDoc = termDocCount.get(term);
+			Double idf = Math.log10((totalDocCount + INCR)/(countDoc + INCR));
+			termDocCount.put(term, idf);
 		}
+		
+		//handle when term not present
+		Double idf = Math.log10((totalDocCount + INCR)/(INCR));
+		termDocCount.put(termNotPresent, idf);
 		
 		
 		//saves to file

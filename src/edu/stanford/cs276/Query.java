@@ -14,6 +14,8 @@ public class Query
 		queryWords = new ArrayList<String>(Arrays.asList(query.split(" ")));
 	}
 	
-	
+	public String toString(){
+		return queryWords.toString();
+	}
 	
 }
