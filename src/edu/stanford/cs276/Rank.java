@@ -128,9 +128,9 @@ public class Rank
 		String corpusDir = "//Users//pallavi//projects//cs276-pa1//data";
 		String idfFile = "inverseDocFreqFile";
 //		// to build idf serialized file
-//		idfs = LoadHandler.buildDFs(corpusDir, idfFile);
-//		System.out.println("File written, now exiting");
-//		System.exit(0);
+		//idfs = LoadHandler.buildDFs(corpusDir, idfFile);
+		//System.out.println("File written, now exiting");
+		//System.exit(0);
 		
 		//to load idfs
 		idfs = LoadHandler.loadDFs(idfFile);
@@ -161,7 +161,7 @@ public class Rank
 		Map<Query,List<String>> queryRankings = score(queryDict,scoreType,idfs);
 		
 		//print results and save them to file 
-		String outputFilePath =  "cosineRankingFile";
+		String outputFilePath =  "ranked.txt";
 		writeRankedResultsToFile(queryRankings,outputFilePath);
 		
 		//print results
