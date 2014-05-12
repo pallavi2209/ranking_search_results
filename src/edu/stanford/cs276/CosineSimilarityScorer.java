@@ -31,19 +31,19 @@ public class CosineSimilarityScorer extends AScorer
 	public static final String ANCHOR = "anchor";
 	
 	///////////////weights///////////////////////////
-//    double urlweight = 1d;
-//    double titleweight  = 2d;
-//    double bodyweight = 0.7d;
-//    double headerweight = 1.5d;
-//    double anchorweight = 3d;
+	double urlweight = 0.8;
+    double titleweight  = 2.5;
+    double bodyweight = 1.0;
+    double headerweight = 1.5;
+    double anchorweight = 1.0;
     
-    double urlweight =  37.7526d;
-    double titleweight  = 83.0817d;
-    double bodyweight = 6.5582d;
-    double headerweight = 1.5d;
-    double anchorweight = 0.4209d;
+    // double urlweight =  37.7526d;
+    // double titleweight  = 83.0817d;
+    // double bodyweight = 6.5582d;
+    // double headerweight = 1.5d;
+    // double anchorweight = 0.4209d;
     
-    double smoothingBodyLength = -1;
+    double smoothingBodyLength = 500;
     //////////////////////////////////////////
 	
 	public double getNetScore(Map<String,Map<String, Double>> tfs, Query q, Map<String,Double> tfQuery,Document d)
@@ -138,7 +138,7 @@ public class CosineSimilarityScorer extends AScorer
 	
 	public void normalizeTFs(Map<String,Map<String, Double>> tfs,Document d, Query q)
 	{
-		Double doc_length = (double)(d.body_length + 500);
+		Double doc_length = (double)(d.body_length + smoothingBodyLength);
 		for (Entry<String,Map<String, Double>> tfTypeEntry : tfs.entrySet()) {
 			String tf_type = tfTypeEntry.getKey();
 			for (Entry<String, Double> tfEntry : tfTypeEntry.getValue().entrySet()) {

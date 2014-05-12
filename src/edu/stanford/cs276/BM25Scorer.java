@@ -20,21 +20,21 @@ public class BM25Scorer extends AScorer
 
 	
 	///////////////weights///////////////////////////
-    double urlweight = 1.0;
-    double titleweight  = 2.0;
-    double bodyweight = 0.7;
+    double urlweight = 0.8;
+    double titleweight  = 2.5;
+    double bodyweight = 1.0;
     double headerweight = 1.5;
-    double anchorweight = 3.0;
+    double anchorweight = 1.0;
 
     ///////bm25 specific weights///////////////
-    double burl=0.75;
-    double btitle=0.75;
-    double bheader=0.75;
-    double bbody=0.75;
-    double banchor=0.75;
+    double burl=1.0;
+    double btitle=1.0;
+    double bheader=1.0;
+    double bbody=1.0;
+    double banchor=1.0;
   
 
-    double k1=1.2;
+    double k1=1.0;
     double pageRankLambda=1;
     double pageRankLambdaPrime=1;
     //////////////////////////////////////////
@@ -94,7 +94,11 @@ public class BM25Scorer extends AScorer
 				if (doc.headers != null) docLengths.put("header", (double)doc.headers.toString().split("//s+").length);
 				if (doc.anchors != null) docLengths.put("anchor", calcAnchorsLength(doc.anchors));
 				lengths.put(doc, docLengths);
-				pagerankScores.put(doc, Math.log(doc.page_rank));
+				if (doc.page_rank > 0) {
+					pagerankScores.put(doc, Math.log(doc.page_rank));
+				} else {
+					pagerankScores.put(doc, 0.0);
+				}
 			}
 		}
 
@@ -139,7 +143,6 @@ public class BM25Scorer extends AScorer
 			}
 			score += idf * (k1 + 1) * tfi / (k1 + tfi) + pageRankLambda * pagerankScores.get(d);
 		}
-		
 		return score;
 	}
 
