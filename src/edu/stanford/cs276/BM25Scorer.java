@@ -20,11 +20,11 @@ public class BM25Scorer extends AScorer
 
 	
 	///////////////weights///////////////////////////
-    double urlweight = 1d;
-    double titleweight  = 2d;
-    double bodyweight = 0.7d;
-    double headerweight = 1.5d;
-    double anchorweight = 3d;
+    double urlweight = 1.0;
+    double titleweight  = 2.0;
+    double bodyweight = 0.7;
+    double headerweight = 1.5;
+    double anchorweight = 3.0;
 
     ///////bm25 specific weights///////////////
     double burl=0.75;
@@ -32,10 +32,11 @@ public class BM25Scorer extends AScorer
     double bheader=0.75;
     double bbody=0.75;
     double banchor=0.75;
+  
 
     double k1=1.2;
     double pageRankLambda=1;
-    double pageRankLambdaPrime=-1;
+    double pageRankLambdaPrime=1;
     //////////////////////////////////////////
     
     ////////////bm25 data structures--feel free to modify ////////
@@ -47,7 +48,19 @@ public class BM25Scorer extends AScorer
     Map<String, Double> bvals;
     
     //////////////////////////////////////////
-    
+   
+   //simple helper function to computer total length of anchor text
+    double calcAnchorsLength(Map<String, Integer> anchors) {
+    	double length = 0.0;
+    	for (Entry<String, Integer> anchor : anchors.entrySet()) {
+    		length += anchor.getValue() * anchor.getKey().split("//s+").length;
+    	}
+    	return length;
+    }
+
+
+
+
     //sets up average lengths for bm25, also handles pagerank
     public void calcAverageLengths()
     {
@@ -78,8 +91,8 @@ public class BM25Scorer extends AScorer
 				docLengths.put("url", (double)url.length());
 				if (doc.title != null) docLengths.put("title", (double)doc.title.length());
 				docLengths.put("body", (double)doc.body_length);
-				if (doc.headers != null) docLengths.put("header", (double)doc.headers.toString().length());
-				if (doc.anchors != null) docLengths.put("anchor", (double)doc.anchors.toString().length());
+				if (doc.headers != null) docLengths.put("header", (double)doc.headers.toString().split("//s+").length);
+				if (doc.anchors != null) docLengths.put("anchor", calcAnchorsLength(doc.anchors));
 				lengths.put(doc, docLengths);
 				pagerankScores.put(doc, Math.log(doc.page_rank));
 			}
@@ -114,7 +127,6 @@ public class BM25Scorer extends AScorer
 		
 		for (String term : q.queryWords) {
 			double tfi = 0.0;
-			System.out.println(term);
 			for (String tfType : this.TFTYPES) {
 				if (!tfs.containsKey(tfType) || !tfs.get(tfType).containsKey(term)) continue;
 				tfi += tfs.get(tfType).get(term);
@@ -152,7 +164,6 @@ public class BM25Scorer extends AScorer
 		for (String tfType : this.TFTYPES) {
 			if (!tfs.containsKey(tfType)) continue;
 			Double Bz = (1 - bvals.get(tfType)) + bvals.get(tfType) * zoneLength(d, tfType) / avgLengths.get(tfType);
-			System.out.println(tfType);
 			for (Entry<String, Double> tf : tfs.get(tfType).entrySet()) {
 				tfs.get(tfType).put(tf.getKey(), tf.getValue() * weights.get(tfType) / Bz);
 			}
