@@ -26,7 +26,6 @@ public abstract class AScorer {
 
 		for (String query_word : q.queryWords) {
 			Double count = 0.0d;
-			Double weight = 0.0d;
 			if (tfQuery.containsKey(query_word)) {
 				count = tfQuery.get(query_word) + INCR;
 			}else{
@@ -42,14 +41,6 @@ public abstract class AScorer {
 		}
 		return tfQuery;
 	}
-
-	// //////////////////Initialization/Parsing Methods/////////////////////
-
-	/*
-	 * @//TODO : Your code here
-	 */
-
-	// //////////////////////////////////////////////////////
 
 	/*
 	 * / Creates the various kinds of term frequences (url, title, body, header,

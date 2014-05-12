@@ -15,7 +15,13 @@ public class Query
 	}
 	
 	public String toString(){
-		return queryWords.toString();
+		StringBuilder queryBuilder = new StringBuilder();
+		for (String s : queryWords)
+		{
+			queryBuilder.append(s);
+			queryBuilder.append(" ");
+		}
+		return queryBuilder.toString();
 	}
 	
 }
