@@ -20,23 +20,23 @@ public class BM25Scorer extends AScorer
 
 	
 	///////////////weights///////////////////////////
-    double urlweight = 0.8;
+    double urlweight = 5.0;
     double titleweight  = 2.5;
     double bodyweight = 1.0;
-    double headerweight = 1.5;
-    double anchorweight = 1.0;
+    double headerweight = 2.0;
+    double anchorweight = 1.2;
 
     ///////bm25 specific weights///////////////
-    double burl=1.0;
-    double btitle=1.0;
-    double bheader=1.0;
+    double burl=0.8;
+    double btitle=0.8;
+    double bheader=0.7;
     double bbody=1.0;
-    double banchor=1.0;
+    double banchor=0.7;
   
 
-    double k1=1.0;
-    double pageRankLambda=1;
-    double pageRankLambdaPrime=1;
+    double k1=40.0;
+    double pageRankLambda=50.0d;
+    double pageRankLambdaPrime=1.0d;
     //////////////////////////////////////////
     
     ////////////bm25 data structures--feel free to modify ////////
@@ -58,6 +58,13 @@ public class BM25Scorer extends AScorer
     	return length;
     }
 
+    double calcHeadersLength(List<String> headers) {
+    	double length = 0.0;
+    	for (String header : headers) {
+    		length += header.split("//s+").length;
+    	}
+    	return length;
+    }
 
 
 
@@ -91,11 +98,11 @@ public class BM25Scorer extends AScorer
 				docLengths.put("url", (double)url.length());
 				if (doc.title != null) docLengths.put("title", (double)doc.title.length());
 				docLengths.put("body", (double)doc.body_length);
-				if (doc.headers != null) docLengths.put("header", (double)doc.headers.toString().split("//s+").length);
+				if (doc.headers != null) docLengths.put("header", calcHeadersLength(doc.headers));
 				if (doc.anchors != null) docLengths.put("anchor", calcAnchorsLength(doc.anchors));
 				lengths.put(doc, docLengths);
 				if (doc.page_rank > 0) {
-					pagerankScores.put(doc, Math.log(doc.page_rank));
+					pagerankScores.put(doc, calcPageRankFactor(doc));
 				} else {
 					pagerankScores.put(doc, 0.0);
 				}
@@ -121,6 +128,13 @@ public class BM25Scorer extends AScorer
 		}
 
     }
+
+	private double calcPageRankFactor(Document doc) {
+		double factor = Math.log10(pageRankLambdaPrime + (double)doc.page_rank);
+		//double factor = (double)doc.page_rank/(double)(pageRankLambdaPrime+ doc.page_rank);
+		//double factor = (double)doc.page_rank/(double)(pageRankLambda + Math.pow(Math.E, (-1)*doc.page_rank));
+		return factor;
+	}
     
     ////////////////////////////////////
     
@@ -141,8 +155,10 @@ public class BM25Scorer extends AScorer
 			} else {
 				idf = this.idfs.get(LoadHandler.termNotPresent);
 			}
-			score += idf * (k1 + 1) * tfi / (k1 + tfi) + pageRankLambda * pagerankScores.get(d);
+			score += idf * (k1 + 1) * tfi / (k1 + tfi);
 		}
+		
+		score += pageRankLambda * pagerankScores.get(d);
 		return score;
 	}
 
@@ -153,10 +169,10 @@ public class BM25Scorer extends AScorer
 			return (d.title != null) ? d.title.length() : 0;
 		}
 		if (zone.equals("header")) {
-			return (d.headers != null) ? d.headers.toString().length() : 0;
+			return (d.headers != null) ? calcHeadersLength(d.headers) : 0;
 		}
 		if (zone.equals("anchor")) {
-			return (d.anchors != null) ? d.anchors.toString().length() : 0;
+			return (d.anchors != null) ? calcAnchorsLength(d.anchors) : 0;
 		}
 		return 0;
 	}
@@ -177,18 +193,10 @@ public class BM25Scorer extends AScorer
 	@Override
 	public double getSimScore(Document d, Query q) 
 	{
-		
 		Map<String,Map<String, Double>> tfs = this.getDocTermFreqs(d,q);
-		
 		this.normalizeTFs(tfs, d, q);
-		
 		Map<String,Double> tfQuery = getQueryFreqs(q);
-		
-		
         return getNetScore(tfs,q,tfQuery,d);
 	}
-
-	
-	
 	
 }

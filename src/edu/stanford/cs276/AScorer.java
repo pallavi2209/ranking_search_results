@@ -56,8 +56,8 @@ public abstract class AScorer {
 
 //		System.out.println("Empty tfs" + tfs.toString());
 		String sUrl = TFTYPES[0]; // "url"
-		String docUrl = d.url;
-		String[] docUrlWords = docUrl.toLowerCase().split("\\W+");
+		String docUrl = scrub(d.url);
+		String[] docUrlWords = docUrl.split("\\s+");
 
 //		System.out
 //				.println("url words:" + Arrays.asList(docUrlWords).toString());
@@ -75,7 +75,7 @@ public abstract class AScorer {
 		String sTitle = TFTYPES[1]; // title
 		String docTitle = d.title;
 		if (docTitle != null) {
-			String[] docTitleWords = docTitle.toLowerCase().split(" ");
+			String[] docTitleWords = docTitle.toLowerCase().split("\\s+");
 			tfs.put(sTitle, new HashMap<String, Double>());
 			for (String query_word : q.queryWords) {
 				Double count = 0.0d;
@@ -116,7 +116,7 @@ public abstract class AScorer {
 				Double count = 0.0d;
 
 				for (String string : docHeaders) {
-					String[] docHeaderWords = string.toLowerCase().split(" ");
+					String[] docHeaderWords = string.toLowerCase().split("\\s+");
 
 					for (int j = 0; j < docHeaderWords.length; j++) {
 						if (getStem(query_word).equals(getStem(docHeaderWords[j]))) {
@@ -140,7 +140,7 @@ public abstract class AScorer {
 
 				for (Entry<String, Integer> anchorEntry : docAnchors.entrySet()) {
 					String[] anchorWords = anchorEntry.getKey().toLowerCase()
-							.split(" ");
+							.split("\\s+");
 					Double countThisAnchor = Double
 							.valueOf((double) anchorEntry.getValue());
 
@@ -195,6 +195,10 @@ public abstract class AScorer {
 			e.printStackTrace();
 		}
 		return stem_word;
+	}
+	
+	public static String scrub(String input){
+		return input.toLowerCase().replaceAll("[^0-9a-z]+", " ").replace("\\s+", " ").trim();
 	}
 
 }
