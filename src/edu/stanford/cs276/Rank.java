@@ -13,6 +13,7 @@ import edu.stanford.cs276.util.Pair;
 public class Rank 
 {
 
+	static Map<Query,List<Pair<String,Double>>> queryRankingsWithscores = new HashMap<Query,List<Pair<String,Double>>>();
 	private static Map<Query,List<String>> score(Map<Query,Map<String, Document>> queryDict, String scoreType,
 			Map<String,Double> idfs)
 	{
@@ -27,8 +28,7 @@ public class Rank
 			//feel free to change this to match your cosine scorer if you choose to build on top of that instead
 			scorer = new SmallestWindowScorer(idfs,queryDict);
 		else if (scoreType.equals("extra"))
-			scorer = new ExtraCreditScorer(idfs);
-		
+			scorer = new ExtraCreditScorer(idfs, queryDict);
 		
 		//put completed rankings here
 		Map<Query,List<String>> queryRankings = new HashMap<Query,List<String>>();
@@ -54,10 +54,12 @@ public class Rank
 				}	
 			});
 			
+			queryRankingsWithscores.put(query, urlAndScores);
 			//put completed rankings into map
 			List<String> curRankings = new ArrayList<String>();
-			for (Pair<String,Double> urlAndScore : urlAndScores)
+			for (Pair<String,Double> urlAndScore : urlAndScores){
 				curRankings.add(urlAndScore.getFirst());
+			}
 			queryRankings.put(query, curRankings);
 		}
 		return queryRankings;
@@ -120,6 +122,47 @@ public class Rank
 			e.printStackTrace();
 		}
 	}
+	
+	public static void writeRankedResultsToFileWithScores(Map<Query,List<Pair<String,Double>>> queryRankings,String outputFilePath)
+	{
+		try {
+			File file = new File(outputFilePath);
+ 
+			// if file doesnt exists, then create it
+			if (!file.exists()) 
+				file.createNewFile();
+			
+			FileWriter fw = new FileWriter(file.getAbsoluteFile());
+			BufferedWriter bw = new BufferedWriter(fw);
+			
+			for (Query query : queryRankings.keySet())
+			{
+				StringBuilder queryBuilder = new StringBuilder();
+				for (String s : query.queryWords)
+				{
+					queryBuilder.append(s);
+					queryBuilder.append(" ");
+				}
+				
+				String queryStr = "query: " + queryBuilder.toString() + "\n";
+		        System.out.print(queryStr);
+				bw.write(queryStr);
+				
+		        for (Pair<String, Double> res : queryRankings.get(query))
+		        {
+		        	String urlString = "  url: " + res.getFirst();
+		        	double score  = res.getSecond();
+		        	System.out.print(urlString);
+		        	bw.write(urlString + " "+ score + "\n");
+		        }
+			}	
+			
+			bw.close();
+ 
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 	public static void main(String[] args) throws IOException 
 	{
@@ -163,6 +206,7 @@ public class Rank
 		//print results and save them to file 
 		String outputFilePath =  "ranked.txt";
 		writeRankedResultsToFile(queryRankings,outputFilePath);
+		//writeRankedResultsToFileWithScores(queryRankingsWithscores, outputFilePath);
 		
 		//print results
 		printRankedResults(queryRankings);

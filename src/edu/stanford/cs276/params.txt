@@ -55,3 +55,276 @@ With params: urlweight = 0.8, titleweight  = 2.5, bodyweight = 1.0, headerweight
 Training: 0.8663021184854894  Dev: 0.8415924451104538
 
 
+---------------------------------------------------
+Window training:
+
+urlweight: 5.0
+titleweight: 2.5
+bodyweight: 1.0
+headerweight: 2.0
+anchorweight: 1.2
+burl: 0.8
+btitle: 0.8
+bheader: 0.7
+bbody: 1.0
+banchor: 0.7
+k1: 40.0
+pageRankLambda: 50.0
+pageRankLambdaPrime: 1.0
+B: 1.0
+0.8798551118659256
+
+
+
+urlweight: 2.0
+titleweight: 2.5
+bodyweight: 3.0
+headerweight: 2.0
+anchorweight: 1.2
+burl: 0.8
+btitle: 0.8
+bheader: 0.7
+bbody: 1.0
+banchor: 0.7
+k1: 30.0
+pageRankLambda: 20.0
+pageRankLambdaPrime: 1.0
+B: 2.0
+0.8766394919838709
+
+
+urlweight: 5.0
+titleweight: 3.5
+bodyweight: 3.0
+headerweight: 4.0
+anchorweight: 2.2
+burl: 0.8
+btitle: 0.8
+bheader: 0.7
+bbody: 1.0
+banchor: 0.7
+k1: 40.0
+pageRankLambda: 30.0
+pageRankLambdaPrime: 1.0
+B: 2.0
+0.8765872443594586
+
+
+urlweight: 5.0
+titleweight: 3.5
+bodyweight: 3.0
+headerweight: 4.0
+anchorweight: 1.2
+burl: 0.8
+btitle: 0.8
+bheader: 0.7
+bbody: 1.0
+banchor: 0.7
+k1: 40.0
+pageRankLambda: 30.0
+pageRankLambdaPrime: 1.0
+B: 3.0
+0.8752765909005369
+
+
+urlweight: 5.0
+titleweight: 3.5
+bodyweight: 3.0
+headerweight: 4.0
+anchorweight: 1.2
+burl: 0.8
+btitle: 0.8
+bheader: 0.7
+bbody: 1.0
+banchor: 0.7
+k1: 40.0
+pageRankLambda: 30.0
+pageRankLambdaPrime: 1.0
+B: 1.0
+0.8786690007279696
+
+
+urlweight: 5.0
+titleweight: 2.5
+bodyweight: 1.0
+headerweight: 2.0
+anchorweight: 1.2
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 40.0
+pageRankLambda: 50.0
+pageRankLambdaPrime: 1.0
+B: 1.0
+0.8798679257318637
+
+urlweight: 5.0
+titleweight: 2.5
+bodyweight: 1.0
+headerweight: 2.0
+anchorweight: 1.2
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 40.0
+pageRankLambda: 50.0
+pageRankLambdaPrime: 1.0
+B: 0.8
+0.8811284401573216
+
+B: 0.1
+0.8840097076577362
+
+
+B: 0.05
+0.8822410997178888
+
+B: = 0.08
+0.8834989769389129
+
+urlweight: 5.0
+titleweight: 2.5
+bodyweight: 1.0
+headerweight: 3.0
+anchorweight: 1.2
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 40.0
+pageRankLambda: 50.0
+pageRankLambdaPrime: 1.0
+B: 0.1
+0.8844762476766871
+
+urlweight: 8.0
+titleweight: 6.0
+bodyweight: 1.0
+headerweight: 7.0
+anchorweight: 1.5
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 40.0
+pageRankLambda: 50.0
+pageRankLambdaPrime: 1.0
+B: 0.1
+0.8870133617929236
+
+urlweight: 8.5
+titleweight: 6.0
+bodyweight: 1.0
+headerweight: 7.5
+anchorweight: 1.2
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 40.0
+pageRankLambda: 50.0
+pageRankLambdaPrime: 1.0
+B: 0.1
+0.8877685231237875
+
+
+urlweight: 8.5
+titleweight: 6.0
+bodyweight: 1.0
+headerweight: 7.5
+anchorweight: 1.2
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 40.0
+pageRankLambda: 60.0
+pageRankLambdaPrime: 1.0
+B: 0.1
+0.8880104151696306
+
+urlweight: 8.0
+titleweight: 6.0
+bodyweight: 1.0
+headerweight: 7.5
+anchorweight: 1.2
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 50.0
+pageRankLambda: 60.0
+pageRankLambdaPrime: 1.0
+B: 0.1
+0.888804593021771
+
+
+urlweight: 8.0
+titleweight: 6.0
+bodyweight: 1.0
+headerweight: 7.5
+anchorweight: 1.2
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 50.0
+pageRankLambda: 80.0
+pageRankLambdaPrime: 1.0
+B: 0.1
+0.8897922020774895
+
+urlweight: 8.0
+titleweight: 6.0
+bodyweight: 1.0
+headerweight: 7.5
+anchorweight: 1.2
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 50.0
+pageRankLambda: 85.0
+pageRankLambdaPrime: 1.0
+B: 0.1
+0.8885387945582618
+
+
+
+final values:
+urlweight: 8.0
+titleweight: 6.0
+bodyweight: 1.0
+headerweight: 7.5
+anchorweight: 1.2
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 50.0
+pageRankLambda: 80.0
+pageRankLambdaPrime: 1.0
+B: 0.1
+0.8897922020774895
+
+
+------------------------------------
+Comparison of cosine, bm and window on dev:
+
+
+cosine: 0.8440325686695546
+bm25: 0.8657326981235276
+window+bm: 0.8670094205525442
+

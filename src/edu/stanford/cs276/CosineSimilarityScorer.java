@@ -131,9 +131,9 @@ public class CosineSimilarityScorer extends AScorer
 			headers += tfQueryWord* tfDocHeader;
 			anchors += tfQueryWord* tfDocAnchor;
 		}
-		
-		System.err.println(q.toString() + "\t" + d.url + "\t" + df.format(urls) + "\t" + df.format(titles) 
-				+ "\t" + df.format(bodys) +"\t" + df.format(headers) + "\t" + df.format(anchors));
+//		
+//		System.err.println(q.toString() + "\t" + d.url + "\t" + df.format(urls) + "\t" + df.format(titles) 
+//				+ "\t" + df.format(bodys) +"\t" + df.format(headers) + "\t" + df.format(anchors));
 	}
 	
 	public void normalizeTFs(Map<String,Map<String, Double>> tfs,Document d, Query q)
