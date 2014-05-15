@@ -66,6 +66,10 @@ public class BM25Scorer extends AScorer
     	return length;
     }
 
+    double calcTitleLength(String title) {
+    	return (double )title.split("//s+").length;
+    }
+
 
 
     //sets up average lengths for bm25, also handles pagerank
@@ -96,7 +100,7 @@ public class BM25Scorer extends AScorer
 				Document doc = docEntry.getValue();
 				Map<String, Double> docLengths = new HashMap<String, Double>();
 				docLengths.put("url", (double)url.length());
-				if (doc.title != null) docLengths.put("title", (double)doc.title.length());
+				if (doc.title != null) docLengths.put("title", calcTitleLength(doc.title));
 				docLengths.put("body", (double)doc.body_length);
 				if (doc.headers != null) docLengths.put("header", calcHeadersLength(doc.headers));
 				if (doc.anchors != null) docLengths.put("anchor", calcAnchorsLength(doc.anchors));

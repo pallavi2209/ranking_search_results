@@ -127,13 +127,14 @@ public class Rank
 		Map<String,Double> idfs = null;
 		String corpusDir = "//Users//pallavi//projects//cs276-pa1//data";
 		String idfFile = "inverseDocFreqFile";
-//		// to build idf serialized file
-		//idfs = LoadHandler.buildDFs(corpusDir, idfFile);
-		//System.out.println("File written, now exiting");
-		//System.exit(0);
-		
+
 		//to load idfs
 		idfs = LoadHandler.loadDFs(idfFile);
+
+		//build idfs if not loaded
+		if (idfs == null) {
+			idfs = LoadHandler.buildDFs(corpusDir, idfFile);
+		}
 		
 		if (args.length < 2) {
 			System.err.println("Insufficient number of arguments: <queryDocTrainData path> taskType");
