@@ -45,7 +45,7 @@ public class CosineSimilarityScorer extends AScorer
 	public double getNetScore(Map<String,Map<String, Double>> tfs, Query q, Map<String,Double> tfQuery,Document d)
 	{
 		double score = 0.0;
-		// net score = qvq ·(cu·tfu +ct·tft+ cb·tfb + ch·tfh + ca·tfa)
+
 		for (String query_word : q.queryWords) {
 			double tfQueryWord;
 			double tfDocUrl = 0.0d, tfDocTitle = 0.0d, tfDocBody= 0.0d, tfDocHeader= 0.0d, tfDocAnchor= 0.0d; 
@@ -88,7 +88,7 @@ public class CosineSimilarityScorer extends AScorer
 	
 	public void printAllScore(Map<String,Map<String, Double>> tfs, Query q, Map<String,Double> tfQuery,Document d)
 	{
-		// net score = qvq ·(cu·tfu +ct·tft+ cb·tfb + ch·tfh + ca·tfa)
+
 		double urls= 0.0, titles=0.0, bodys=0.0, headers=0.0, anchors=0.0;
 		for (String query_word : q.queryWords) {
 			double tfQueryWord;
