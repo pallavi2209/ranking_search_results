@@ -57,68 +57,71 @@ public class BM25Scorer extends AScorer {
 
 	}
 
-	// //////////bm25 data structures--feel free to modify ////////
+    ////////////bm25 data structures--feel free to modify ////////
+    
+    Map<Document,Map<String,Double>> lengths;
+    Map<String,Double> avgLengths;
+    Map<Document,Double> pagerankScores;
+    Map<String, Double> weights;
+    Map<String, Double> bvals;
+    
+    //////////////////////////////////////////
+   
+   //simple helper function to computer total length of anchor text
+    double calcAnchorsLength(Map<String, Integer> anchors) {
+    	double length = 0.0;
+    	for (Entry<String, Integer> anchor : anchors.entrySet()) {
+    		length += anchor.getValue() * anchor.getKey().split("//s+").length;
+    	}
+    	return length;
+    }
 
-	Map<Document, Map<String, Double>> lengths;
-	Map<String, Double> avgLengths;
-	Map<Document, Double> pagerankScores;
-	Map<String, Double> weights;
-	Map<String, Double> bvals;
+    double calcHeadersLength(List<String> headers) {
+    	double length = 0.0;
+    	for (String header : headers) {
+    		length += header.split("//s+").length;
+    	}
+    	return length;
+    }
 
-	// ////////////////////////////////////////
+    double calcTitleLength(String title) {
+    	return (double )title.split("//s+").length;
+    }
 
-	// simple helper function to computer total length of anchor text
-	double calcAnchorsLength(Map<String, Integer> anchors) {
-		double length = 0.0;
-		for (Entry<String, Integer> anchor : anchors.entrySet()) {
-			length += anchor.getValue() * anchor.getKey().split("//s+").length;
-		}
-		return length;
-	}
 
-	double calcHeadersLength(List<String> headers) {
-		double length = 0.0;
-		for (String header : headers) {
-			length += header.split("//s+").length;
-		}
-		return length;
-	}
 
-	// sets up average lengths for bm25, also handles pagerank
-	public void calcAverageLengths() {
-		weights = new HashMap<String, Double>();
-		bvals = new HashMap<String, Double>();
-		lengths = new HashMap<Document, Map<String, Double>>();
-		avgLengths = new HashMap<String, Double>();
-		pagerankScores = new HashMap<Document, Double>();
+    //sets up average lengths for bm25, also handles pagerank
+    public void calcAverageLengths()
+    {
+    	weights = new HashMap<String, Double>();
+    	bvals = new HashMap<String, Double>();
+    	lengths = new HashMap<Document,Map<String,Double>>();
+    	avgLengths = new HashMap<String,Double>();
+    	pagerankScores = new HashMap<Document,Double>();
 
-		weights.put("url", urlweight);
-		weights.put("title", titleweight);
-		weights.put("body", bodyweight);
-		weights.put("header", headerweight);
-		weights.put("anchor", anchorweight);
+    	weights.put("url", urlweight);
+    	weights.put("title", titleweight);
+    	weights.put("body", bodyweight);
+    	weights.put("header", headerweight);
+    	weights.put("anchor", anchorweight);
 
-		bvals.put("url", burl);
-		bvals.put("title", btitle);
-		bvals.put("header", bheader);
-		bvals.put("body", bbody);
-		bvals.put("anchor", banchor);
+    	bvals.put("url", burl);
+    	bvals.put("title", btitle);
+    	bvals.put("header", bheader);
+    	bvals.put("body", bbody);
+    	bvals.put("anchor", banchor);
 
-		for (Entry<Query, Map<String, Document>> queryDictEntry : this.queryDict
-				.entrySet()) {
-			for (Entry<String, Document> docEntry : queryDictEntry.getValue()
-					.entrySet()) {
+    	
+		for (Entry<Query, Map<String, Document>> queryDictEntry : this.queryDict.entrySet()) {
+			for (Entry<String, Document> docEntry : queryDictEntry.getValue().entrySet()) {
 				String url = docEntry.getKey();
 				Document doc = docEntry.getValue();
 				Map<String, Double> docLengths = new HashMap<String, Double>();
-				docLengths.put("url", (double) url.length());
-				if (doc.title != null)
-					docLengths.put("title", (double) doc.title.length());
-				docLengths.put("body", (double) doc.body_length);
-				if (doc.headers != null)
-					docLengths.put("header", calcHeadersLength(doc.headers));
-				if (doc.anchors != null)
-					docLengths.put("anchor", calcAnchorsLength(doc.anchors));
+				docLengths.put("url", (double)url.length());
+				if (doc.title != null) docLengths.put("title", calcTitleLength(doc.title));
+				docLengths.put("body", (double)doc.body_length);
+				if (doc.headers != null) docLengths.put("header", calcHeadersLength(doc.headers));
+				if (doc.anchors != null) docLengths.put("anchor", calcAnchorsLength(doc.anchors));
 				lengths.put(doc, docLengths);
 				if (doc.page_rank > 0) {
 					pagerankScores.put(doc, calcPageRankFactor(doc));
