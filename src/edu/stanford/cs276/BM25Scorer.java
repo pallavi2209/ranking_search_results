@@ -136,8 +136,7 @@ public class BM25Scorer extends AScorer {
 				String zone = zoneLength.getKey();
 				Double length = zoneLength.getValue();
 				if (avgLengths.containsKey(zone)) {
-					avgLengths.put(zone,
-							length / lengths.size() + avgLengths.get(zone));
+					avgLengths.put(zone, length / lengths.size() + avgLengths.get(zone));
 				} else {
 					avgLengths.put(zone, length / lengths.size());
 				}
@@ -146,15 +145,13 @@ public class BM25Scorer extends AScorer {
 
 		// normalize avgLengths
 		for (String tfType : this.TFTYPES) {
-			avgLengths
-					.put(tfType, avgLengths.get(tfType) * weights.get(tfType));
+			avgLengths.put(tfType, avgLengths.get(tfType) * weights.get(tfType));
 		}
 
 	}
 
 	private double calcPageRankFactor(Document doc) {
-		double factor = Math
-				.log10(pageRankLambdaPrime + (double) doc.page_rank);
+		double factor = Math.log10(pageRankLambdaPrime + (double) doc.page_rank);
 		// double factor = (double)doc.page_rank/(double)(pageRankLambdaPrime+
 		// doc.page_rank);
 		// double factor = (double)doc.page_rank/(double)(pageRankLambda +

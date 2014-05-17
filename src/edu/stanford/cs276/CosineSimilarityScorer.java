@@ -31,17 +31,13 @@ public class CosineSimilarityScorer extends AScorer
 	public static final String ANCHOR = "anchor";
 	
 	///////////////weights///////////////////////////
-	double urlweight = 0.8;
-    double titleweight  = 2.5;
-    double bodyweight = 1.0;
-    double headerweight = 1.5;
-    double anchorweight = 1.0;
-    
-    // double urlweight =  37.7526d;
-    // double titleweight  = 83.0817d;
-    // double bodyweight = 6.5582d;
-    // double headerweight = 1.5d;
-    // double anchorweight = 0.4209d;
+	
+	double urlweight = 8.0;
+	double titleweight = 6.0;
+	double bodyweight = 1.0;
+	double headerweight = 7.5;
+	double anchorweight = 1.2;
+
     
     double smoothingBodyLength = 500;
     //////////////////////////////////////////
@@ -49,7 +45,7 @@ public class CosineSimilarityScorer extends AScorer
 	public double getNetScore(Map<String,Map<String, Double>> tfs, Query q, Map<String,Double> tfQuery,Document d)
 	{
 		double score = 0.0;
-		// net score = qvq ·(cu·tfu +ct·tft+ cb·tfb + ch·tfh + ca·tfa)
+
 		for (String query_word : q.queryWords) {
 			double tfQueryWord;
 			double tfDocUrl = 0.0d, tfDocTitle = 0.0d, tfDocBody= 0.0d, tfDocHeader= 0.0d, tfDocAnchor= 0.0d; 
@@ -92,7 +88,7 @@ public class CosineSimilarityScorer extends AScorer
 	
 	public void printAllScore(Map<String,Map<String, Double>> tfs, Query q, Map<String,Double> tfQuery,Document d)
 	{
-		// net score = qvq ·(cu·tfu +ct·tft+ cb·tfb + ch·tfh + ca·tfa)
+
 		double urls= 0.0, titles=0.0, bodys=0.0, headers=0.0, anchors=0.0;
 		for (String query_word : q.queryWords) {
 			double tfQueryWord;
@@ -131,9 +127,6 @@ public class CosineSimilarityScorer extends AScorer
 			headers += tfQueryWord* tfDocHeader;
 			anchors += tfQueryWord* tfDocAnchor;
 		}
-//		
-//		System.err.println(q.toString() + "\t" + d.url + "\t" + df.format(urls) + "\t" + df.format(titles) 
-//				+ "\t" + df.format(bodys) +"\t" + df.format(headers) + "\t" + df.format(anchors));
 	}
 	
 	public void normalizeTFs(Map<String,Map<String, Double>> tfs,Document d, Query q)
