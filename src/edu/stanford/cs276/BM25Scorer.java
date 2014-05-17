@@ -121,11 +121,7 @@ public class BM25Scorer extends AScorer {
 				if (doc.headers != null) docLengths.put("header", calcHeadersLength(doc.headers));
 				if (doc.anchors != null) docLengths.put("anchor", calcAnchorsLength(doc.anchors));
 				lengths.put(doc, docLengths);
-				if (doc.page_rank > 0) {
-					pagerankScores.put(doc, calcPageRankFactor(doc));
-				} else {
-					pagerankScores.put(doc, 0.0);
-				}
+				pagerankScores.put(doc, calcPageRankFactor(doc));
 			}
 		}
 
@@ -150,6 +146,8 @@ public class BM25Scorer extends AScorer {
 
 	private double calcPageRankFactor(Document doc) {
 		double factor = Math.log10(pageRankLambdaPrime + (double) doc.page_rank);
+		//double factor = doc.page_rank / (30.0 + doc.page_rank);
+		//double factor = 1 / (pageRankLambdaPrime + Math.exp(-1 * doc.page_rank));
 		return factor;
 	}
 

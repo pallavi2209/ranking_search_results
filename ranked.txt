@@ -1,98 +1,98 @@
 query: freeman spogli institute 
-  url: http://fsi.stanford.edu/docs/fsi_faqs/
-  url: http://fsi.stanford.edu/docs/about_fsi
-  url: http://cisac.stanford.edu/people/marianoflorentinocuellar/
-  url: http://fsi.stanford.edu/docs/gateway_for_visiting_scholars/
-  url: http://fsi.stanford.edu/centers/
   url: http://fsi.stanford.edu/
-  url: http://fsi.stanford.edu/news/
+  url: http://fsi.stanford.edu/docs/gateway_for_visiting_scholars/
+  url: http://fsi.stanford.edu/docs/about_fsi
+  url: http://fsi.stanford.edu/docs/fsi_faqs/
+  url: http://cisac.stanford.edu/people/marianoflorentinocuellar/
   url: http://fsi.stanford.edu/people/larry_diamond/
+  url: http://fsi.stanford.edu/news/
+  url: http://fsi.stanford.edu/centers/
   url: http://fsi.stanford.edu/publications/
   url: http://europe.stanford.edu/events/austrias_immediate_past_presidency_of_the_european_council/
 query: deep learning cs classes 
   url: http://cs.stanford.edu/people/ang/?portfolio=on-optimization-methods-for-deep-learning
   url: http://www.stanford.edu/class/cs294a/
-  url: http://cs.stanford.edu/people/karpathy/
+  url: http://cs.stanford.edu/people/ang/?page_id=413
   url: https://www.stanford.edu/class/cs294a/info.html
   url: http://www.stanford.edu/class/cs294a/handouts.html
-  url: http://www.stanford.edu/class/archive/cs/cs294a/cs294a.1104/info.html
-  url: http://cs.stanford.edu/people/ang/?page_id=413
+  url: http://cs.stanford.edu/people/karpathy/
   url: http://www.stanford.edu/class/cs294a/wim.html
+  url: http://www.stanford.edu/class/archive/cs/cs294a/cs294a.1104/info.html
   url: http://cs.stanford.edu/~quocle/faces_full.pdf
   url: http://cs229.stanford.edu/materials.html
 query: dairy 
   url: http://iis-db.stanford.edu/pubs/21639/Chinese_Suburban-Dairy_production_working_paper.pdf
-  url: http://fsi.stanford.edu/publications/enhancing_productivity_on_suburban_dairy_farms_in_china/
   url: http://scocal.stanford.edu/opinion/mirabito-v-san-francisco-dairy-co-28623
-  url: http://med.stanford.edu/ism/2013/december/milk.html
+  url: http://fsi.stanford.edu/publications/enhancing_productivity_on_suburban_dairy_farms_in_china/
   url: http://news.stanford.edu/news/2009/may27/goat-052209.html
   url: http://large.stanford.edu/courses/2010/ph240/junco2/
-  url: http://searchworks.stanford.edu/view/2965222
   url: http://news.stanford.edu/news/2009/may27/videos/535.html
-  url: http://searchworks.stanford.edu/view/10193870
+  url: http://searchworks.stanford.edu/view/2965222
+  url: http://med.stanford.edu/ism/2013/december/milk.html
   url: http://large.stanford.edu/publications/coal/references/docs/RR217.pdf
+  url: http://searchworks.stanford.edu/view/10193870
 query: computer science masters admission 
   url: http://cs.stanford.edu/education/admissions
   url: http://cs.stanford.edu/education/masters/current-students/joint-cs-ms-law-degree
-  url: http://www-nlp.stanford.edu/~rkarthik/admissions.html
-  url: http://www-cs.stanford.edu/category/groups/eduaff
   url: http://www-cs.stanford.edu/info/contact
-  url: http://cs.stanford.edu/content/faqs
+  url: http://www-cs.stanford.edu/category/groups/eduaff
   url: http://cs.stanford.edu/content/ms-faqs
   url: http://cs.stanford.edu/content/additionalchange-degree
+  url: http://cs.stanford.edu/content/faqs
+  url: http://www-nlp.stanford.edu/~rkarthik/admissions.html
   url: http://cs.stanford.edu/content/checklist
   url: http://nlp.stanford.edu/~rkarthik/DAGAP.pdf
 query: ice cream on campus 
-  url: http://alumni.stanford.edu/get/page/magazine/article/?article_id=63151
   url: http://searchworks.stanford.edu/view/9984751
-  url: http://www.stanford.edu/group/runningclub/CampusRuns.htm
+  url: http://alumni.stanford.edu/get/page/magazine/article/?article_id=63151
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/kosher-dining-pilot-program-florence-moore
+  url: http://www.stanford.edu/group/runningclub/CampusRuns.htm
   url: http://www.stanford.edu/dept/visitorinfo/activities/dining.html
   url: https://studentaffairs.stanford.edu/resed/profiles/regular/flomo
-  url: http://news.stanford.edu/news/2006/may3/kids-050306.html
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/florence-moore-hall
+  url: http://news.stanford.edu/news/2006/may3/kids-050306.html
   url: http://ceas.stanford.edu/docs/forms/Restaurants.pdf
   url: https://admit.stanford.edu/in-their-own-words/matthew-chen
 query: industry collaboration big data telecommunication mobile 
   url: http://scopeblog.stanford.edu/2014/03/24/euan-ashley-discusses-harnessing-big-data-to-drive-innovation-for-a-healthier-world/
-  url: https://dschool.stanford.edu/classes/
-  url: http://suif.stanford.edu/~courses/cs294s/pmwiki/index.php?n=Main.Mentors
-  url: http://med.stanford.edu/ism/2014/january/bigdata.html
   url: https://itservices.stanford.edu/services/allproviders
-  url: http://sprie.gsb.stanford.edu/research/china2
+  url: https://dschool.stanford.edu/classes/
+  url: http://med.stanford.edu/ism/2014/january/bigdata.html
+  url: http://suif.stanford.edu/~courses/cs294s/pmwiki/index.php?n=Main.Mentors
   url: https://venturelab.stanford.edu/mhealth/reports/51801
+  url: http://sprie.gsb.stanford.edu/research/china2
   url: http://casbs-test.stanford.edu/communications_news
   url: http://stanford.edu/group/univ-librarian/SPIRL/North%20Carolina%20State%20University%20Libraries.pdf
   url: http://stanford.edu/~naroa/ee360report.pdf
 query: gates building 
-  url: http://cs.stanford.edu/content/gates-building
-  url: http://infolab.stanford.edu/~anishds/pics/Stanford/tn/William_Gates_Computer_Science_Building.jpg.html
   url: http://infolab.stanford.edu/pub/keller/gates-map.html
+  url: http://cs.stanford.edu/content/gates-building
   url: http://cs.stanford.edu/info/gates
-  url: http://gin.stanford.edu/
-  url: https://news.slac.stanford.edu/features/new-automated-access-gates-sector-30-and-gate-17
-  url: http://infolab.stanford.edu/infoseminar/archive/FallY96/gates-map.html
-  url: https://www.stanford.edu/class/engr110/2010/accessibility.html
   url: http://campus-map.stanford.edu/
+  url: http://infolab.stanford.edu/infoseminar/archive/FallY96/gates-map.html
+  url: https://news.slac.stanford.edu/features/new-automated-access-gates-sector-30-and-gate-17
+  url: http://gin.stanford.edu/
+  url: https://www.stanford.edu/class/engr110/2010/accessibility.html
+  url: http://infolab.stanford.edu/~anishds/pics/Stanford/tn/William_Gates_Computer_Science_Building.jpg.html
   url: http://netseminar.stanford.edu/past_seminars/2007-01-index.html
 query: where is jordan hall? 
   url: http://theory.stanford.edu/~aflb/directions-jordan.html
-  url: http://www.stanford.edu/dept/visitorinfo/activities/dining.html
   url: http://www.stanford.edu/group/memorylab/Participate/Jordan.pdf
   url: http://www.stanford.edu/group/mood/cgi-bin/wordpress/?cat=5
-  url: http://white.stanford.edu/~brian/JordanHall.html
+  url: http://www.stanford.edu/dept/visitorinfo/activities/dining.html
   url: http://www.stanford.edu/group/storytelling/cgi-bin/joomla/index.php/shows/season-4/433-episode-419-control.html
+  url: http://white.stanford.edu/~brian/JordanHall.html
   url: https://www.stanford.edu/dept/psychology/cgi-bin/drupalm/historyofdepartment
   url: http://aha.stanford.edu/?paged=2
   url: http://aha.stanford.edu/?p=3041
   url: http://gsc.stanford.edu/Subscribe/GradEvents/2003-05-26.txt
 query: graduate tuition 
-  url: https://studentaffairs.stanford.edu/registrar/students/graduate-tuition_10-11
-  url: https://studentaffairs.stanford.edu/registrar/students/tuition-fees_11-12
   url: http://studentaffairs.stanford.edu/registrar/students/coterm/tuition
+  url: https://studentaffairs.stanford.edu/registrar/students/graduate-tuition_10-11
+  url: http://www.stanford.edu/dept/registrar/bulletin1011/21504.htm
+  url: https://studentaffairs.stanford.edu/registrar/students/tuition-fees_11-12
   url: https://studentaffairs.stanford.edu/registrar/students/tuition-fees_13-14
   url: http://www.stanford.edu/dept/finaid/grad/budget/
-  url: http://www.stanford.edu/dept/registrar/bulletin1011/21504.htm
   url: http://studentaffairs.stanford.edu/registrar/forms/grad
   url: http://me.stanford.edu/prospective_students/grad_finaid.html
   url: http://studentaffairs.stanford.edu/sites/default/files/registrar/files/grad_qtr.pdf
@@ -100,167 +100,167 @@ query: graduate tuition
 query: directions to the dish 
   url: https://parentsweekend.stanford.edu/hike-dish-0
   url: http://porterdrive.stanford.edu/neighborhood/dish_walk
-  url: http://news.stanford.edu/thedish/?p=31305
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/dish-arrillaga
   url: http://running.stanford.edu/Runs/Dish.htm
+  url: http://news.stanford.edu/thedish/?p=31305
   url: https://news.stanford.edu/thedish/?p=31405
   url: https://news.stanford.edu/thedish/?p=31803
-  url: http://news.stanford.edu/thedish/?p=31323
   url: http://news.stanford.edu/thedish/?p=29015
   url: https://news.stanford.edu/thedish/?p=31433
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/dish-arrillaga
+  url: http://news.stanford.edu/thedish/?p=31323
 query: new arrillaga gym hours 
   url: http://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/facilities/aoerc/
-  url: https://www-group.slac.stanford.edu/esh/medical/wellness.htm
-  url: http://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/facilities/facility-access/
   url: http://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/facilities/facility-hours/
+  url: https://www-group.slac.stanford.edu/esh/medical/wellness.htm
   url: http://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/wellness/personal-training/
-  url: https://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/facilities/slac/slac-in-the-news/
-  url: https://bewell.stanford.edu/new-recreation-center
+  url: http://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/facilities/facility-access/
   url: http://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/all-sports-camp/
   url: http://news.stanford.edu/news/2013/october/outdoor-rec-center-100113.html
+  url: https://bewell.stanford.edu/new-recreation-center
+  url: https://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/facilities/slac/slac-in-the-news/
   url: http://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/pe-classes/
 query: human computer interaction news 
+  url: http://hci.stanford.edu/
   url: https://ed.stanford.edu/news/professor-clifford-i-nass-expert-human-computer-interaction-dies
   url: http://online.stanford.edu/course/hci
-  url: https://www.gsb.stanford.edu/news/headlines/stanford-offer-joint-computer-science-ms-mba-degree-program
-  url: http://hci.stanford.edu/
   url: http://symsys.stanford.edu/viewing/htmldocument/13694
-  url: https://engineering.stanford.edu/press/period-transition-stanford-computer-science-rethinks-core-curriculum
-  url: http://news.stanford.edu/news/2012/september/online-courses-fall-090712.html
   url: http://fsi.stanford.edu/people/Terry_Winograd
+  url: http://news.stanford.edu/news/2012/september/online-courses-fall-090712.html
+  url: https://www.gsb.stanford.edu/news/headlines/stanford-offer-joint-computer-science-ms-mba-degree-program
   url: http://fsi.stanford.edu/people/yan_liu/
+  url: https://engineering.stanford.edu/press/period-transition-stanford-computer-science-rethinks-core-curriculum
   url: http://www.stanford.edu/~nass/publications_chrono.htm
 query: escondido village map 
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village-lowrise-apartments
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village-highrise-apartments
   url: https://ev.stanford.edu/
-  url: http://www.stanford.edu/dept/rde/scs/area/maps/SCGuidesweb/EVcscweb.pdf
-  url: http://m.stanford.edu/events/event?id=43299
-  url: http://insight.stanford.edu/luna/servlet/detail/Stanford~4~1~13369~111954:Student-housing----Escondido-Villag
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village-lowrise-apartments
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village-highrise-apartments
   url: https://ev.stanford.edu/evcas
+  url: http://insight.stanford.edu/luna/servlet/detail/Stanford~4~1~13369~111954:Student-housing----Escondido-Villag
+  url: http://m.stanford.edu/events/event?id=43299
+  url: http://www.stanford.edu/dept/rde/scs/area/maps/SCGuidesweb/EVcscweb.pdf
   url: http://transportation.stanford.edu/marguerite/
   url: http://stanford.edu/group/resed/escondido/EV_Computing.pdf
 query: andrew ng computer science stanford 
   url: http://cs.stanford.edu/people/ang/
-  url: https://news.stanford.edu/news/2011/august/online-computer-science-081611.html
   url: http://see.stanford.edu/see/courseinfo.aspx?coll=348ca38a-3a6d-4052-937d-cb017338d7b1
+  url: https://news.stanford.edu/news/2011/august/online-computer-science-081611.html
   url: http://pgnet.stanford.edu/home/rta/click?rtaCode=191483&rtaTarget=http://www.nytimes.com/2012/06/26/technology/in-a-big-network-of-computers-evidence-of-machine-learning.html&rtaTcode=211461
   url: http://cs.stanford.edu/people/karpathy/
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=11763
   url: http://see.stanford.edu/materials/aimlcs229/transcripts/MachineLearning-Lecture01.pdf
+  url: http://www.stanford.edu/~acoates/papers/LeNgiCoaLahProNg11.pdf
   url: http://cs.stanford.edu/~woodward/
   url: http://cs.stanford.edu/people/ang/papers/icml09-ConvolutionalDeepBeliefNetworks.pdf
-  url: http://www.stanford.edu/~acoates/papers/LeNgiCoaLahProNg11.pdf
 query: donald knuth 
   url: http://www-cs-faculty.stanford.edu/~uno/
   url: https://engineering.stanford.edu/about/heroes/donald-knut
   url: http://www-cs-faculty.stanford.edu/~uno/books.html
   url: http://www-cs-faculty.stanford.edu/~uno/vita.html
   url: http://www-cs-faculty.stanford.edu/~uno/abcde.html
-  url: http://www-cs-faculty.stanford.edu/~uno/lp.html
   url: http://www-cs-faculty.stanford.edu/~uno/email.html
   url: http://www-cs-faculty.stanford.edu/~uno/vita.ps.gz
   url: http://www-cs-faculty.stanford.edu/~uno/help.html
+  url: http://www-cs-faculty.stanford.edu/~uno/lp.html
   url: http://www-cs-faculty.stanford.edu/~uno/sgb-words.txt
 query: icenter file tax 
   url: http://icenter.stanford.edu/taxes/tax_info.html
   url: http://postdocs.stanford.edu/admin/blog/archives/2010/02/filing-tax-retu.html
-  url: http://icenter.stanford.edu/docs/intl-student-update/Jan_10.pdf
   url: http://icenter.stanford.edu/students/new/visa_stanford_grad.html
-  url: http://icenter.stanford.edu/docs/intl-student-update/April_11.pdf
   url: http://icenter.stanford.edu/scholars/status/insurance.html
-  url: http://icenter.stanford.edu/students/current/opt_checklist_uscis.html
+  url: http://icenter.stanford.edu/docs/intl-student-update/Jan_10.pdf
   url: https://mailman.stanford.edu/pipermail/som_postdocs/2013-March/000675.html
-  url: https://www.stanford.edu/dept/anthropology/cgi-bin/web/?q=system/files/ANTHRO_TA_ReferenceResource.pdf
+  url: http://icenter.stanford.edu/docs/intl-student-update/April_11.pdf
+  url: http://icenter.stanford.edu/students/current/opt_checklist_uscis.html
   url: http://www-group.slac.stanford.edu/sluo/news_items/tax.html
+  url: https://www.stanford.edu/dept/anthropology/cgi-bin/web/?q=system/files/ANTHRO_TA_ReferenceResource.pdf
 query: residence router 
-  url: http://answers.stanford.edu/category/telephones-and-cable-tv/stanford-west-welch-road-residences/stanford-west-welch-road-intern
   url: https://itservices.stanford.edu/service/residential/configure_internet/techsupport
   url: https://acomp.stanford.edu/surveys/2009_2010_graduate
   url: http://acomp.stanford.edu/surveys/2005_2006_undergraduate
+  url: http://answers.stanford.edu/category/telephones-and-cable-tv/stanford-west-welch-road-residences/stanford-west-welch-road-intern
+  url: http://www.stanford.edu/dept/its/support/techtraining/techbriefing-media/Building-Home-Network-72409.pdf
   url: https://acomp.stanford.edu/networkconnections
   url: http://art.stanford.edu/galleries-spaces/sculpture-lab/
-  url: https://itservices.stanford.edu/strategy/network
-  url: http://www.stanford.edu/dept/its/support/techtraining/techbriefing-media/Building-Home-Network-72409.pdf
-  url: http://www.slac.stanford.edu/grp/scs/net/talk09/ictp-divide.ppt
   url: https://itservices.stanford.edu/service/wirelessnet
+  url: https://itservices.stanford.edu/strategy/network
+  url: http://www.slac.stanford.edu/grp/scs/net/talk09/ictp-divide.ppt
 query: stanford visitors parking 
   url: http://transportation.stanford.edu/parking_info/VisitorParking.shtml
+  url: http://www.stanford.edu/dept/visitorinfo/plan/parking.html
+  url: http://visit.stanford.edu/plan/
   url: http://cancer.stanford.edu/directions/parking.html
   url: http://lksc.stanford.edu/services/parking.html
-  url: http://www.stanford.edu/dept/visitorinfo/plan/parking.html
   url: https://forum.stanford.edu/visitors/directions/hewlett.php
   url: http://campus-map.stanford.edu/
-  url: http://visit.stanford.edu/plan/
-  url: http://med.stanford.edu/stanfordhospital/clinicsmedServices/medicalServices/imaging/docs/SHC_Patient_Map.pdf
   url: http://engineering.stanford.edu/visit/parking
+  url: http://med.stanford.edu/stanfordhospital/clinicsmedServices/medicalServices/imaging/docs/SHC_Patient_Map.pdf
   url: https://ed.stanford.edu/admissions/visit
 query: the rains dorm 
-  url: https://studentaffairs.stanford.edu/resed/profiles/regular/roble
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/liliore-green-rains-houses
+  url: https://studentaffairs.stanford.edu/resed/profiles/regular/roble
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/housing-options
   url: http://studentaffairs.stanford.edu/resed/profiles/regular/wilbur/junipero
-  url: http://acomp.stanford.edu/students/residential/history
-  url: https://studentaffairs.stanford.edu/resed/profiles/regular/stern/donner
   url: http://www.stanford.edu/group/beagle2/student_reports/FriedlerReport.pdf
+  url: http://acomp.stanford.edu/students/residential/history
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/apartments-and-suites
+  url: https://studentaffairs.stanford.edu/resed/profiles/regular/stern/donner
   url: http://unofficial.stanford.edu/?page_id=1653
   url: http://www.stanford.edu/group/ccr/blog/2009/10/california_sunshine.html
 query: big game stanford vs berkeley 
-  url: https://alumni.stanford.edu/get/page/events/details?event_id=8372
-  url: http://klamath.stanford.edu/~molinero/calendus/STSA/read/event_3995_STSA_read.html
   url: http://searchworks.stanford.edu/view/1073429
+  url: http://klamath.stanford.edu/~molinero/calendus/STSA/read/event_3995_STSA_read.html
   url: http://biggame.stanford.edu/
   url: http://www.stanford.edu/group/axecomm/cgi-bin/wordpress/?page_id=59
+  url: https://alumni.stanford.edu/get/page/events/details?event_id=8372
   url: https://alumni.stanford.edu/get/page/events/details?event_id=10608
   url: http://www.stanford.edu/group/axecomm/cgi-bin/wordpress/?page_id=157
   url: http://alumni.stanford.edu/get/page/events/details?event_id=10304
-  url: https://axecomm.stanford.edu/axebook/origin.html
   url: http://kzsu.stanford.edu/
+  url: https://axecomm.stanford.edu/axebook/origin.html
 query: career services mock interview 
   url: https://studentaffairs.stanford.edu/cdc/interviewing
-  url: https://studentaffairs.stanford.edu/cdc/interviewing/types
   url: https://studentaffairs.stanford.edu/cdc/interviewing/to-ask
-  url: http://studentaffairs.stanford.edu/cdc/services/career-counseling
-  url: http://www.law.stanford.edu/organizations/offices/office-of-career-services/past-events?page=1
-  url: https://studentaffairs.stanford.edu/cdc/interviewing/etiquette
+  url: https://studentaffairs.stanford.edu/cdc/interviewing/types
   url: https://www.gsb.stanford.edu/programs/mba/career-impact/support
+  url: http://studentaffairs.stanford.edu/cdc/services/career-counseling
   url: https://studentaffairs.stanford.edu/cdc/jobs/internships-finding
+  url: https://studentaffairs.stanford.edu/cdc/interviewing/etiquette
   url: http://forum.stanford.edu/careers/recruiting.php
+  url: http://www.law.stanford.edu/organizations/offices/office-of-career-services/past-events?page=1
   url: http://aims.stanford.edu/career_change.html
 query: cs276 lecture hours 
   url: http://www.stanford.edu/class/cs276/
   url: http://www.stanford.edu/class/cs276a/
-  url: http://www.stanford.edu/class/cs276/handouts/lecture8-evaluation.ppt
   url: http://www.stanford.edu/class/cs276/handouts/lecture16-crawling-jun4-6per.pdf
   url: http://www.stanford.edu/class/cs276/handouts/
+  url: http://www.stanford.edu/class/cs276/handouts/lecture8-evaluation.ppt
   url: http://explorecourses.stanford.edu/search?page=12&q=LINGUIST&filter-coursestatus-Active=on&view=catalog&academicYear=20112012&filter-departmentcode-LINGUIST=on
-  url: http://explorecourses.stanford.edu/search?catalog=72&filter-coursestatus-Active=on&page=13&q=cs&view=catalog
-  url: http://explorecourses.stanford.edu/search;jsessionid=56F7D0989F78EE3A8BBD02A147241D4D?filter-term-Summer=on&catalog=72&filter-coursestatus-Active=on&filter-term-Spring=on&filter-catalognumber-CS=on&filter-term-Winter=on&filter-term-Autumn=on&page=6&q=CS
   url: http://explorecourses.stanford.edu/CourseSearch/search?page=12&catalog=&q=CS&view=catalog&filter-catalognumber-CS=on
   url: http://exploredegrees.stanford.edu/coursedescriptions/cs/
+  url: http://explorecourses.stanford.edu/search?catalog=72&filter-coursestatus-Active=on&page=13&q=cs&view=catalog
+  url: http://explorecourses.stanford.edu/search;jsessionid=56F7D0989F78EE3A8BBD02A147241D4D?filter-term-Summer=on&catalog=72&filter-coursestatus-Active=on&filter-term-Spring=on&filter-catalognumber-CS=on&filter-term-Winter=on&filter-term-Autumn=on&page=6&q=CS
 query: cs masters program tuition fees 
   url: https://www.stanford.edu/dept/registrar/bulletin1112/4835.htm
   url: http://cs.stanford.edu/education/masters/current-students/joint-cs-msmba-degree
+  url: http://cs.stanford.edu/education/admissions
   url: http://cs.stanford.edu/content/ms-faqs
   url: http://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1240861
-  url: http://cs.stanford.edu/education/admissions
   url: http://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1145836
   url: http://www-cs.stanford.edu/newsletter/past-newsletters/2011
   url: http://www.gsb.stanford.edu/programs/mba/academic-experience/joint-dual-degrees
-  url: http://www.stanford.edu/group/mba/blog/2013/03/new_ms_computer_sciencemba_joi.html
   url: http://scpd.stanford.edu/online-engineering-courses.jsp
+  url: http://www.stanford.edu/group/mba/blog/2013/03/new_ms_computer_sciencemba_joi.html
 query: library books about information retrieval that are still available 
   url: http://nlp.stanford.edu/IR-book/information-retrieval.html
-  url: http://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf
   url: http://nlp.stanford.edu/IR-book/pdf/10xml.pdf
+  url: http://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf
   url: http://plato.stanford.edu/entries/ethics-search/
   url: http://nlp.stanford.edu/IR-book/pdf/15svm.pdf
-  url: http://library.stanford.edu/news/2014/03/issei-oral-history-project-now-streaming-online
+  url: http://lib.stanford.edu/swain/blog?page=0%2C8
   url: http://library.stanford.edu/using/interlibrary-borrowing/pick-item/electronic-document-delivery
   url: http://library.stanford.edu/news/2014/01/duke-university-press-launches-new-platform-ebooks
-  url: http://lib.stanford.edu/swain/blog?page=0%2C8
+  url: http://library.stanford.edu/news/2014/03/issei-oral-history-project-now-streaming-online
   url: http://news.stanford.edu/pr/94/940809Arc4164.html
 query: tuition assistance 
   url: https://www.law.stanford.edu/tuition
@@ -269,213 +269,213 @@ query: tuition assistance
   url: https://studentaffairs.stanford.edu/registrar/students/tuition-refund-11-12
   url: https://adminguide.stanford.edu/chapter-2/subchapter-3/policy-2-3-3
   url: http://hros.stanford.edu/eap/tgp.html
-  url: https://benefits.stanford.edu/benefits-offerings
-  url: http://www.stanford.edu/dept/dms/hrdata/eap/documents/STRP_Guidelines.pdf
   url: https://ohs.stanford.edu/admissions/tuition.html
+  url: http://www.stanford.edu/dept/dms/hrdata/eap/documents/STRP_Guidelines.pdf
+  url: https://benefits.stanford.edu/benefits-offerings
   url: https://www.gsb.stanford.edu/programs/mba/financial-aid/cost-summary
 query: gates building location 
-  url: http://www.stanford.edu/class/engr110/2010/gates-big.html
-  url: https://www.stanford.edu/class/engr110/2010/accessibility.html
-  url: http://maps.stanford.edu/ada/building-ada.cfm?FACIL_ID=04-510
   url: http://infolab.stanford.edu/pub/keller/gates-map.html
   url: http://forum.stanford.edu/visitors/directions/gates.php
   url: http://cs.stanford.edu/info/gates
+  url: http://www.stanford.edu/class/engr110/2010/gates-big.html
+  url: https://www.stanford.edu/class/engr110/2010/accessibility.html
+  url: http://maps.stanford.edu/ada/building-ada.cfm?FACIL_ID=04-510
+  url: http://www.stanford.edu/dept/EHS/prod/aboutus/directions.html
   url: http://scocal.stanford.edu/opinion/bellon-v-silver-gate-theatres-inc-24842
   url: http://maps.stanford.edu/ada/building-ada.cfm?FACIL_ID=07-210-AUD
-  url: http://www.stanford.edu/dept/EHS/prod/aboutus/directions.html
   url: http://www-cs-students.stanford.edu/~dbfaria/files/faria-TR-KP06-0118.pdf
 query: student handbook course selection 
   url: http://www.stanford.edu/group/ughb/cgi-bin/handbook/index.php/For_Advisors
-  url: http://www.law.stanford.edu/organizations/offices/office-of-the-registrar/stanford-non-law-student-course-registration
+  url: http://scpd.stanford.edu/generalInformation/pdf/NDOHandbook.pdf
   url: http://www.law.stanford.edu/organizations/offices/office-of-the-registrar
   url: https://ed.stanford.edu/academics/masters-handbook/registration
-  url: http://scpd.stanford.edu/generalInformation/pdf/NDOHandbook.pdf
   url: http://cee.stanford.edu/pdfs/CEE_GR_Handbook.pdf
+  url: http://www.law.stanford.edu/organizations/offices/office-of-the-registrar/stanford-non-law-student-course-registration
   url: http://www.law.stanford.edu/organizations/offices/office-of-the-registrar/stanford-law-class-schedule-grids
-  url: http://devbio.stanford.edu/education/handbook.html
   url: http://www.law.stanford.edu/organizations/offices/office-of-the-registrar/state-bar-certifications
   url: http://www.law.stanford.edu/organizations/offices/office-of-the-registrar/exam-information
+  url: http://devbio.stanford.edu/education/handbook.html
 query: locations of free food in gates 
-  url: https://knight.stanford.edu/life-fellow/2012/stanford-gates-of-hell-or-gates-of-paradise/
   url: http://cs.stanford.edu/content/life-gates-building-0
-  url: http://prelectur.stanford.edu/lecturers/gates/jsinterv.html
+  url: https://knight.stanford.edu/life-fellow/2012/stanford-gates-of-hell-or-gates-of-paradise/
   url: https://mailman.stanford.edu/mailman/listinfo/GATES-FOOD
+  url: http://prelectur.stanford.edu/lecturers/gates/jsinterv.html
+  url: http://www.stanford.edu/dept/visitorinfo/activities/dining.html
   url: http://globalhealth.stanford.edu/news/opportunities.html
   url: http://unofficial.stanford.edu/?page_id=1638
   url: https://mailman.stanford.edu/pipermail/grad-events/2013-December.txt
-  url: http://www.stanford.edu/dept/visitorinfo/activities/dining.html
   url: https://mailman.stanford.edu/pipermail/mapss_mailing_list/2009-October.txt
   url: http://gsc.stanford.edu/wp_gsc2/author/secretary/
 query: green library 
   url: http://library.stanford.edu/libraries/green/about
-  url: http://library.stanford.edu/libraries/green/media-microtext-center
+  url: http://www-sul.stanford.edu/depts/green/where/stack/
+  url: https://www-sul.stanford.edu/libraries_collections/places_to_study/
   url: http://library.stanford.edu/news/2014/01/circle-sun-new-exhibit-green-library
   url: http://library.stanford.edu/news/2013/10/un-day-green-library-exhibit-and-more
-  url: https://www-sul.stanford.edu/libraries_collections/places_to_study/
-  url: http://www-sul.stanford.edu/depts/green/where/stack/
+  url: http://library.stanford.edu/libraries/green/media-microtext-center
+  url: https://lib.stanford.edu/ssrc
   url: http://library.stanford.edu/hours
   url: http://library.stanford.edu/
-  url: https://lib.stanford.edu/ssrc
   url: https://library.stanford.edu/using/borrow-renew-return/borrow
 query: c parking permit price 
   url: http://transportation.stanford.edu/parking_info/permit-prices.shtml
+  url: http://transportation.stanford.edu/parking_info/NeedToKnow.shtml
   url: http://news.stanford.edu/news/2003/august6/park-86.html
-  url: http://news.stanford.edu/news/2001/august8/parkingchanges-88.html
-  url: http://news.stanford.edu/pr/95/950613Arc5179.html
   url: http://transportation.stanford.edu/parking_info/ParkingInformation.shtml
+  url: http://news.stanford.edu/pr/95/950613Arc5179.html
   url: http://transportation.stanford.edu/parking_info/ServiceDelivery.shtml
   url: http://transportation.stanford.edu/parking_info/VisitorParking.shtml
+  url: http://news.stanford.edu/news/2001/august8/parkingchanges-88.html
   url: http://news.stanford.edu/news/2002/august21/ecopass-821.html
   url: http://transportation.stanford.edu/parking_info/ResidentStudent.shtml
-  url: http://transportation.stanford.edu/parking_info/NeedToKnow.shtml
 query: parking permits 
   url: http://library.stanford.edu/news/2013/08/apply-online-2013-14-parking-permits
-  url: http://library.stanford.edu/news/2013/08/stanford-parking-permits-expire-aug-31-consider-commute-club-rewards-2013-14
   url: http://transportation.stanford.edu/parking_info/permit-prices.shtml
-  url: http://transportation.stanford.edu/parking_info/ParkingInformation.shtml
   url: http://transportation.stanford.edu/parking_info/NeedToKnow.shtml
+  url: http://transportation.stanford.edu/parking_info/ParkingInformation.shtml
+  url: http://library.stanford.edu/news/2013/08/stanford-parking-permits-expire-aug-31-consider-commute-club-rewards-2013-14
   url: http://news.stanford.edu/news/2007/august8/permits-080807.html
-  url: http://transportation.stanford.edu/parking_info/ResidentStudent.shtml
   url: http://transportation.stanford.edu/permit-return/
+  url: http://transportation.stanford.edu/parking_info/ResidentStudent.shtml
   url: http://transportation.stanford.edu/parking_info/ReturnsExchanges.shtml
   url: http://transportation.stanford.edu/alt_transportation/carpoolcredit.shtml
 query: coursera andrew ng 
-  url: http://cs.stanford.edu/people/ang/?news=praesent-semper-commodo
   url: http://cs.stanford.edu/people/ang/
+  url: http://cs.stanford.edu/people/ang/?news=praesent-semper-commodo
+  url: http://cs.stanford.edu/people/ang/?page_id=248
+  url: http://cs.stanford.edu/people/ang/?page_id=22
   url: http://cs.stanford.edu/people/ang/?portfolio=deep-learning-with-cots-hpc-systems
   url: http://cs.stanford.edu/people/ang/?portfolio=parsing-with-compositional-vector-grammars
   url: http://cs.stanford.edu/people/ang/?portfolio=deep-learning-of-invariant-features-via-simulated-fixations-in-video
   url: http://cs.stanford.edu/people/ang/?portfolio=learning-word-vectors-for-sentiment-analysis
-  url: http://cs.stanford.edu/people/ang/?page_id=248
-  url: http://cs.stanford.edu/people/ang/?portfolio=an-analysis-of-single-layer-networks-in-unsupervised-feature-learning
-  url: http://cs.stanford.edu/people/ang/?page_id=22
   url: http://cs.stanford.edu/people/ang/?portfolio=efficient-l1-regularized-logistic-regression
+  url: http://cs.stanford.edu/people/ang/?portfolio=an-analysis-of-single-layer-networks-in-unsupervised-feature-learning
 query: scpd guest lecture 
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=11894
-  url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=8984957
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=12676
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=12718
+  url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=8984957
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do;jsessionid=17AA9EA4B891ABA431ABB68269F976C7?method=load&courseId=11433
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do;jsessionid=80FC485B5F5F17688F1F3A8395E67279?method=load&courseId=1144307
   url: http://www.stanford.edu/class/cs244b/
-  url: http://www.scs.stanford.edu/10wi-cs140/notes/l18-print.pdf
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=11071698
+  url: http://www.scs.stanford.edu/10wi-cs140/notes/l18-print.pdf
   url: http://infolab.stanford.edu/~widom/cs145/Day1.pdf
 query: graduate course information 
   url: http://exploredegrees.stanford.edu/graduateschoolofbusiness/
   url: http://scpd.stanford.edu/online-engineering-courses.jsp
-  url: http://online.stanford.edu/course/rauh-finance
   url: http://www-cs.stanford.edu/courses
+  url: http://online.stanford.edu/course/rauh-finance
   url: http://ee.stanford.edu/current-students/ee-courses
+  url: http://exploredegrees.stanford.edu/
+  url: http://facts.stanford.edu/academics/graduate
   url: https://www.law.stanford.edu/organizations/offices/office-of-the-registrar/jd-graduation
   url: http://exploredegrees.stanford.edu/graduatedegrees/
-  url: http://exploredegrees.stanford.edu/
   url: https://www.stanford.edu/dept/humsci/cgi-bin/gus/content/diversity-grad-prep
-  url: http://facts.stanford.edu/academics/graduate
 query: cs courses that has the highest evaluation score in the past 5 years 
-  url: http://lytics.stanford.edu/wordpress/wp-content/uploads/2013/04/Kizilcec-Piech-Schneider-2013-Deconstructing-Disengagement-Analyzing-Learner-Subpopulations-in-Massive-Open-Online-Courses.pdf
-  url: http://cs.stanford.edu/people/ashton/pubs/discvalue-kdd2012.pdf
   url: http://epgy.stanford.edu/for-parents/epgy-courses/apply-register
-  url: http://vision.stanford.edu/teaching/cs231a_autumn1213/project.html
-  url: https://med.stanford.edu/profiles/paul-heidenreich
-  url: http://nlp.stanford.edu/~rkarthik/DAGAP.pdf
-  url: http://www.stanford.edu/dept/psychology/cgi-bin/drupalm/system/files/Implicit%20Theories%20of%20Intelligence%20Predict%20Achievement%20Across%20an%20Adolescent%20Transition.pdf
-  url: http://www.stanford.edu/~ldh/publications/LDH%20-The-Color-Line.doc
-  url: http://robots.stanford.edu/cs223b05/taxonomy-IJCV.pdf
+  url: http://cs.stanford.edu/people/ashton/pubs/discvalue-kdd2012.pdf
   url: http://hci.stanford.edu/publications/2012/SelfAssessmentInDesignSpring2012TR.pdf
+  url: http://lytics.stanford.edu/wordpress/wp-content/uploads/2013/04/Kizilcec-Piech-Schneider-2013-Deconstructing-Disengagement-Analyzing-Learner-Subpopulations-in-Massive-Open-Online-Courses.pdf
+  url: http://vision.stanford.edu/teaching/cs231a_autumn1213/project.html
+  url: http://www.stanford.edu/dept/psychology/cgi-bin/drupalm/system/files/Implicit%20Theories%20of%20Intelligence%20Predict%20Achievement%20Across%20an%20Adolescent%20Transition.pdf
+  url: http://nlp.stanford.edu/~rkarthik/DAGAP.pdf
+  url: https://med.stanford.edu/profiles/paul-heidenreich
+  url: http://robots.stanford.edu/cs223b05/taxonomy-IJCV.pdf
+  url: http://www.stanford.edu/~ldh/publications/LDH%20-The-Color-Line.doc
 query: on-campus legal advice on taxes 
   url: https://www.stanford.edu/dept/finaid/aid/tax_info/
   url: http://studentaffairs.stanford.edu/sfs/tax/overviews-residents
   url: http://news.stanford.edu/pr/94/940215Arc4443.html
   url: http://petitions.stanford.edu/media/specialfees/Application11604-D.pdf
-  url: http://icenter.stanford.edu/docs/orientation/Maintaining_Legal_Status.pdf
-  url: http://art.stanford.edu/apps/stanfordart/files/wysiwyg_images/file/Grad%20Documents/2013-14%20DF%20Handbook%20for%20Web.pdf
   url: http://fsh.stanford.edu/about/index.shtml
   url: http://www.stanford.edu/dept/finaid/site/news/
   url: https://fsh.stanford.edu/faq/index.shtml
+  url: http://art.stanford.edu/apps/stanfordart/files/wysiwyg_images/file/Grad%20Documents/2013-14%20DF%20Handbook%20for%20Web.pdf
+  url: http://icenter.stanford.edu/docs/orientation/Maintaining_Legal_Status.pdf
   url: http://gsc.stanford.edu/Advocacy/Surveys/GradHousing/Off-CampusComments.shtml
 query: stanford french house address 
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/frontdesk/the-row
-  url: http://exploredegrees.stanford.edu/schoolofhumanitiesandsciences/frenchanditalian/
   url: http://studentaffairs.stanford.edu/resed/profiles/theme/maison-francaise
   url: http://library.stanford.edu/news/2014/03/french-revolution-digital-archive
+  url: http://exploredegrees.stanford.edu/schoolofhumanitiesandsciences/frenchanditalian/
   url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=FRENLANG+60E%3A+French+Cooking&collapse=
   url: http://alumni.stanford.edu/get/page/travel-study/trip/?ciid=59764
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/frontdesk/the-row
   url: http://www.stanford.edu/group/maison/
   url: http://www.stanford.edu/dept/visitorinfo/activities/dining.html
   url: http://www.stanford.edu/class/frenlang60d/
   url: http://alumni.stanford.edu/get/page/travel-study/trip/?ciid=59748
 query: stanford computer science 
-  url: http://online.stanford.edu/course/computer-science-101
-  url: http://theory.stanford.edu/
-  url: http://news.stanford.edu/news/2014/march/facsen-joint-majors-030614.html
   url: http://www-cs.stanford.edu/
-  url: http://cs.stanford.edu/degrees/undergrad/
+  url: http://online.stanford.edu/course/computer-science-101
   url: http://www-cs.stanford.edu/csdcf
-  url: http://cs.stanford.edu/degrees/mscs/degree.php
   url: http://cs.stanford.edu/education/admissions
+  url: http://news.stanford.edu/news/2014/march/facsen-joint-majors-030614.html
+  url: http://cs.stanford.edu/degrees/undergrad/
   url: http://www-cs.stanford.edu/courses
   url: http://see.stanford.edu/see/courses.aspx
+  url: http://theory.stanford.edu/
+  url: http://cs.stanford.edu/degrees/mscs/degree.php
 query: stanford academic calendar 
   url: http://studentaffairs.stanford.edu/registrar/academic-calendar
   url: http://studentaffairs.stanford.edu/registrar/academic-calendar/week
-  url: http://sociology.stanford.edu/programs/acadcal.html
   url: http://exploredegrees.stanford.edu/academiccalendar/
-  url: http://studentaffairs.stanford.edu/sites/default/files/registrar/files/future_acad_calendars10-20.pdf
-  url: https://med.stanford.edu/md/curriculum/schedules.html
-  url: http://registrar.stanford.edu/bulletin_past/
+  url: http://sociology.stanford.edu/programs/acadcal.html
   url: http://www.gsb.stanford.edu/events
   url: https://studentaffairs.stanford.edu/sites/default/files/registrar/files/Calendar_AY_1314.pdf
+  url: http://registrar.stanford.edu/bulletin_past/
+  url: https://med.stanford.edu/md/curriculum/schedules.html
+  url: http://studentaffairs.stanford.edu/sites/default/files/registrar/files/future_acad_calendars10-20.pdf
   url: http://exploredegrees.stanford.edu/academiccalendar/academiccalendar.pdf
 query: ohs registrar 
-  url: https://ohs.stanford.edu/admin.html
-  url: https://ohs.stanford.edu/masterschedule.pdf
   url: https://ohs.stanford.edu/
+  url: https://ohs.stanford.edu/admin.html
   url: https://ohs.stanford.edu/Common%20Questions%20EPGY%20OHS%202009-10.pdf
+  url: https://ohs.stanford.edu/masterschedule.pdf
   url: http://studentaffairs.stanford.edu/registrar/final-exams
-  url: http://securities.stanford.edu/filings-documents/1043/CIaED09_01/20091020_r01c_09CV01610.pdf
   url: https://stanfordwho.stanford.edu/SWApp/Search.do?search=smith&affilfilter=everyone&soundex=&stanfordonly=&filters=
+  url: http://securities.stanford.edu/filings-documents/1043/CIaED09_01/20091020_r01c_09CV01610.pdf
   url: https://stanfordwho.stanford.edu/SWApp/detailAction.do?key=DR287A220&search=kleinsubmitSearch&soundex=checkbox&stanfordonly=&affilfilter=everyone&filters=open
   url: http://dbpubs.stanford.edu:8091/~testbed/doc2/WebBase/crawl_lists/crawled_hosts.0905
   url: http://diglib.stanford.edu:8091/~testbed/doc2/WebBase/site_lists/2005-11
 query: stanford dining 
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/dining-calendar-dates
   url: http://dining.stanford.edu/
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/graduate-student-dining-faq
+  url: http://rde.stanford.edu/
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/dining-calendar-dates
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/meal-plans-0
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/undergraduate-meal-plans
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/sustainable-food-program
   url: http://www.stanford.edu/dept/rde/dining/wilbur.htm
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/graduate-student-dining-faq
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/sustainable-purchasing
   url: http://www.stanford.edu/dept/rde/dining/staff_meals.htm
-  url: http://rde.stanford.edu/
 query: computer science courses 
   url: http://online.stanford.edu/course/computer-science-101
-  url: http://explorecourses.stanford.edu/CourseSearch/search;jsessionid=05B4F0C555020025D45A3E75668CD846?page=0&catalog=&q=CS&view=catalog&filter-catalognumber-CS=on
-  url: http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111
-  url: http://epgy.stanford.edu/for-parents/epgy-courses/textbooks
   url: http://www-cs.stanford.edu/courses
+  url: http://epgy.stanford.edu/for-parents/epgy-courses/textbooks
+  url: http://see.stanford.edu/see/courseinfo.aspx?coll=824a47e1-135f-4508-a5aa-866adcae1111
   url: http://www-cs.stanford.edu/education/masters
-  url: http://cs.stanford.edu/courses/schedules/2013-2014.spring.php
   url: http://see.stanford.edu/
+  url: http://explorecourses.stanford.edu/CourseSearch/search;jsessionid=05B4F0C555020025D45A3E75668CD846?page=0&catalog=&q=CS&view=catalog&filter-catalognumber-CS=on
   url: http://www-cs.stanford.edu/education/phd
+  url: http://cs.stanford.edu/courses/schedules/2013-2014.spring.php
   url: http://www.stanford.edu/class/cs103/
 query: machine translation 
-  url: http://nlp.stanford.edu/projects/mt.shtml
   url: https://genderedinnovations.stanford.edu/case-studies/nlp.html
-  url: http://www-nlp.stanford.edu/links/statnlp.html
+  url: http://nlp.stanford.edu/projects/mt.shtml
   url: http://www.stanford.edu/~jurafsky/pubs/positive_diversity_tuning.wmt2013.pdf
+  url: http://www-nlp.stanford.edu/links/statnlp.html
   url: http://cs.stanford.edu/~pliang/papers/discriminative-mt-acl2006.pdf
-  url: http://nlp.stanford.edu/courses/cs224n/2009/fp/27.pdf
-  url: http://www-nlp.stanford.edu/wiki/Software/Phrasal
   url: http://nlp.stanford.edu/pubs/acl09-depLM.pdf
+  url: http://www-nlp.stanford.edu/wiki/Software/Phrasal
   url: http://www.stanford.edu/class/cs124/lec/mt1.pdf
+  url: http://nlp.stanford.edu/courses/cs224n/2009/fp/27.pdf
   url: http://lingo.stanford.edu/pubs/tbaldwin/phd-thesis.pdf
 query: next promising startup 
-  url: http://engineering.stanford.edu/category/departments/electrical-engineering?page=1
   url: http://rockcenter.law.stanford.edu/videos/startup-governance-getting-the-most-from-your-board/
   url: https://rockcenter.law.stanford.edu/events/startup-governance-getting-the-most-from-your-board/
   url: http://startup.gsb.stanford.edu/
+  url: http://engineering.stanford.edu/category/departments/electrical-engineering?page=1
   url: http://stanford.edu/group/ases/cgi-bin/wordpress/?page_id=135
   url: http://www.stanford.edu/class/ee380/Abstracts/121107.html
   url: http://e145.stanford.edu/term_project
@@ -483,27 +483,27 @@ query: next promising startup
   url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=57728
   url: http://www.stanford.edu/group/mcgehee/presentations/McGehee's%202014%20Energy%20Seminar.ppt
 query: memorial church wedding 
+  url: http://www.stanford.edu/group/religiouslife/cgi-bin/wordpress/memorial-church/weddings/
   url: http://www.stanford.edu/group/religiouslife/cgi-bin/wordpress/memorial-church/weddings/wedding-music/
   url: http://www.stanford.edu/group/religiouslife/cgi-bin/wordpress/memorial-church/weddings/wedding-faqs/
-  url: http://www.stanford.edu/group/religiouslife/cgi-bin/wordpress/memorial-church/weddings/
-  url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=36861
   url: http://www.stanford.edu/group/religiouslife/cgi-bin/wordpress/
-  url: http://www.stanford.edu/group/religiouslife/cgi-bin/wordpress/programs/compline/
-  url: http://alumni.stanford.edu/get/page/magazine/article/?article_id=64339
   url: http://www.stanford.edu/group/religiouslife/cgi-bin/wordpress/about-orl/contact-us/
+  url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=36861
+  url: http://www.stanford.edu/group/religiouslife/cgi-bin/wordpress/programs/compline/
   url: http://www.stanford.edu/~rrogers/album_pg2.html
+  url: http://alumni.stanford.edu/get/page/magazine/article/?article_id=64339
   url: http://catholic.stanford.edu/sites/default/files/112711.pdf
 query: electrical engineering research 
   url: https://engineering.stanford.edu/category/departments/electrical-engineering
-  url: http://postdocs.stanford.edu/profiles/frdActionServlet?choiceId=showFacByDept&dept=Electrical+Engineering&tab=pdoc
   url: https://ee.stanford.edu/research-areas
-  url: http://large.stanford.edu/history/kaist/web/courses/ee/eindex.html
-  url: http://www.stanford.edu/dept/registrar/bulletin1112/5274.htm
   url: https://ee.stanford.edu/
+  url: http://postdocs.stanford.edu/profiles/frdActionServlet?choiceId=showFacByDept&dept=Electrical+Engineering&tab=pdoc
+  url: http://www.stanford.edu/dept/registrar/bulletin1112/5274.htm
   url: https://ee.stanford.edu/research-centers
-  url: http://www.stanford.edu/group/fan/
-  url: https://ee.stanford.edu/research-areas/physical-technology-science
   url: http://ee.stanford.edu/reu/Welcome
+  url: http://large.stanford.edu/history/kaist/web/courses/ee/eindex.html
+  url: https://ee.stanford.edu/research-areas/physical-technology-science
+  url: http://www.stanford.edu/group/fan/
 query: housing assignment priority 
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/assignment-priorities
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/page/summer-assignment-priorities
@@ -511,8 +511,8 @@ query: housing assignment priority
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/summer/summer-housing-first-round-summer-lottery
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/summer/apply/continuous-assignment-summer-quarter
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/students-disabilities
-  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/reassignments-same-category
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/new-year
+  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/reassignments-same-category
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/sites/default/files/pdfs/coupleswoc.pdf
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/sites/default/files/pdfs/groups_app_worksheet.pdf
 query: stanford squash 
@@ -523,17 +523,17 @@ query: stanford squash
   url: http://www.stanford.edu/group/squash/court.html
   url: http://www.stanford.edu/group/squash/men.html
   url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=ATHLETIC+126V%3A+Squash%2C+Varsity+Women&collapse=
-  url: http://explorecourses.stanford.edu/CourseSearch/search?page=0&catalog=&q=ATHLETIC+126V%3A+Squash%2C+Varsity+Women&filter-coursestatus-Active=on&view=timeschedule&collapse=
   url: http://alumni.stanford.edu/get/page/magazine/article/?article_id=34090
+  url: http://explorecourses.stanford.edu/CourseSearch/search?page=0&catalog=&q=ATHLETIC+126V%3A+Squash%2C+Varsity+Women&filter-coursestatus-Active=on&view=timeschedule&collapse=
   url: http://atbweb.stanford.edu/scripts/papers.php?sendfile=283
 query: kennedy ev stanford 
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village
-  url: https://iriss.stanford.edu/news
   url: https://news.stanford.edu/thedish/?p=31179
-  url: http://comstockhousing.stanford.edu/frequently-asked-questions.html
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village
   url: http://comstockhousing.stanford.edu/pdf/Kennedy-Residences_Factsheet_04-14-14.pdf
-  url: https://www.stanford.edu/dept/EHS/prod/general/erprep/eap/EAP_MASTER_LIST_by_building_name.xls
+  url: http://comstockhousing.stanford.edu/frequently-asked-questions.html
+  url: https://iriss.stanford.edu/news
   url: http://comstockhousing.stanford.edu/
+  url: https://www.stanford.edu/dept/EHS/prod/general/erprep/eap/EAP_MASTER_LIST_by_building_name.xls
   url: http://historicalsociety.stanford.edu/pdfST/ST26no2_3.pdf
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/new-year
   url: http://news.stanford.edu/thedish/?m=2013&paged=2
@@ -541,439 +541,439 @@ query: cs224n natural language processing course instructor
   url: https://class.stanford.edu/courses/Engineering/CS224N/Natural_Language_Processing/about
   url: http://www.stanford.edu/class/cs224n/
   url: http://see.stanford.edu/see/courseinfo.aspx?coll=63480b48-8819-4efd-8412-263f1a472f5a
-  url: http://www.stanford.edu/class/cs224n/grading.html
   url: https://linguistics.stanford.edu/courses/
+  url: http://www.stanford.edu/class/cs224n/grading.html
   url: http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=CS+221&collapse=
   url: http://explorecourses.stanford.edu/CourseSearch/search?page=7&q=CS&catalog=&view=timeschedule&filter-catalognumber-CS=on
   url: http://symsys.stanford.edu/viewing/htmldocument/13915
-  url: http://scpd.stanford.edu/search/publicTermScheduleSearch.do?method=load&term=Spring%202009-10
   url: http://stanford.edu/~cpiech/cs221/apps/machineTranslation.html
+  url: http://scpd.stanford.edu/search/publicTermScheduleSearch.do?method=load&term=Spring%202009-10
 query: spring break time 
-  url: http://news.stanford.edu/news/2002/april3/springbreak-43.html
-  url: http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=MED%20202:%20Alternative%20Spring%20Break:%20Rural%20and%20American%20Indian%20Health%20Disparities&academicYear=20132014
-  url: https://events.stanford.edu/events/422/42231/
   url: http://www.stanford.edu/group/ASB/cgi-bin/prod/trips/20689
-  url: https://news.stanford.edu/thedish/?p=13289
+  url: http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=MED%20202:%20Alternative%20Spring%20Break:%20Rural%20and%20American%20Indian%20Health%20Disparities&academicYear=20132014
+  url: http://news.stanford.edu/news/2002/april3/springbreak-43.html
+  url: https://events.stanford.edu/events/422/42231/
   url: http://www.stanford.edu/group/ASB/cgi-bin/prod/trips
   url: http://www.stanford.edu/group/ASB/cgi-bin/prod/faq
-  url: https://studentaffairs.stanford.edu/sites/default/files/haas/files/ASB_ReflectionGuide.doc
+  url: https://news.stanford.edu/thedish/?p=13289
   url: https://bewell.stanford.edu/sites/default/files/FREE%20Spring%20Break%20Fitness%20Samplers%20-%20Draft.pdf
+  url: https://studentaffairs.stanford.edu/sites/default/files/haas/files/ASB_ReflectionGuide.doc
   url: http://www.stanford.edu/dept/CTL/cgi-bin/academicskillscoaching/category/perfectionism/
 query: opt 
   url: http://library.stanford.edu/opt-out
+  url: http://icenter.stanford.edu/docs/students/CPTvsOPT.pdf
   url: http://icenter.stanford.edu/students/current/post_opt.html
+  url: http://ssrl.slac.stanford.edu/~george/exafspak/molopt.htm
   url: http://icenter.stanford.edu/students/current/pre_opt.html
   url: http://icenter.stanford.edu/students/current/post_opt_tutorial.html
-  url: http://ssrl.slac.stanford.edu/~george/exafspak/molopt.htm
-  url: http://icenter.stanford.edu/docs/students/CPTvsOPT.pdf
   url: http://icenter.stanford.edu/students/current/opt_checklist_uscis.html
-  url: http://med.stanford.edu/clinicaltrials/trials/NCT00857545
   url: http://csi.gsb.stanford.edu/defaults-make-difference
+  url: http://med.stanford.edu/clinicaltrials/trials/NCT00857545
   url: http://vaden.stanford.edu/insurance/cc_enroll.html
 query: undergrad mechanical engineering 
-  url: http://www.stanford.edu/group/ughb/cgi-bin/handbook/index.php/Mechanical_Engineering_Program
-  url: http://me.stanford.edu/current_students/ug_research.html
   url: http://me.stanford.edu/
+  url: http://www.stanford.edu/group/ughb/cgi-bin/handbook/index.php/Mechanical_Engineering_Program
   url: http://me.stanford.edu/prospective_students/ug_admissions.html
   url: http://me.stanford.edu/current_students/student_svcs.html
   url: http://www.stanford.edu/group/ughb/cgi-bin/handbook/index.php/4-Year_Plans
   url: http://me.stanford.edu/documents/ME_SSO/UG/MinorDeclaration.pdf
+  url: http://me.stanford.edu/current_students/ug_research.html
   url: http://www.stanford.edu/group/ughb/cgi-bin/handbook/index.php/Program_Sheet_2011-2012
   url: http://www.stanford.edu/group/ughb/cgi-bin/handbook/index.php/Departmental_Links
   url: http://www.stanford.edu/group/ughb/cgi-bin/handbook/index.php/Product_Design_Program
 query: climbing wall hours 
   url: http://outdoored.stanford.edu/climbing/
   url: http://outdoored.stanford.edu/climbing/team/
-  url: https://outdoored.stanford.edu/climbing/crag/schedule/
   url: http://outdoored.stanford.edu/crag/crag-sponsors/
-  url: http://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/facilities/aoerc/
+  url: https://outdoored.stanford.edu/climbing/crag/schedule/
   url: http://www.stanford.edu/~clint/index/
   url: https://outdoored.stanford.edu/center/
-  url: http://stanford.edu/group/alpineclub/08a1006anch.txt
+  url: http://www.stanford.edu/dept/pe/cgi-bin/cardinalrec/facilities/aoerc/
   url: http://www.stanford.edu/group/alpineclub/info/classes.html
+  url: http://stanford.edu/group/alpineclub/08a1006anch.txt
 query: stanford biomedical informatics design 
-  url: http://bmi.stanford.edu/prospective-students/PhD-minor-biomedical-informatics.html
   url: http://bmi.stanford.edu/
-  url: http://bmi.stanford.edu/biomedical-informatics-students/FilesCurrentStudents/Student_Handbook_2012_13.pdf
+  url: http://bmi.stanford.edu/prospective-students/PhD-minor-biomedical-informatics.html
+  url: http://www.stanford.edu/dept/registrar/bulletin1112/6162.htm
   url: http://bmi.stanford.edu/research/faculty.html
   url: http://bmi.stanford.edu/people-directory/alum-PhD-MS-BMI.html
+  url: http://bmi.stanford.edu/biomedical-informatics-students/FilesCurrentStudents/Student_Handbook_2012_13.pdf
   url: http://exploredegrees.stanford.edu/schoolofmedicine/biomedicalinformatics/biomedicalinformatics.pdf
-  url: http://www.stanford.edu/dept/registrar/bulletin1112/6162.htm
   url: http://hci.stanford.edu/academics/degrees.php
   url: http://bmi.stanford.edu/prospective-students/faq.html
   url: https://www.stanford.edu/dept/registrar/bulletin0809/61284.htm
 query: undergrad tuition per year 
   url: http://news.stanford.edu/news/2014/february/undergrad-tuition-up-021214.html
-  url: http://www.stanford.edu/dept/finaid/undergrad/budget/
   url: http://news.stanford.edu/news/2012/february/stanford-undergraduate-tuition-020712.html
+  url: http://www.stanford.edu/dept/finaid/undergrad/budget/
   url: https://studentaffairs.stanford.edu/registrar/students/summer-tuition_11-12
-  url: http://studentaffairs.stanford.edu/registrar/students/coterm/tuition
   url: http://studentaffairs.stanford.edu/registrar/students/tuition-fees_12-13
-  url: https://ee.stanford.edu/current-students/undergraduate-students
+  url: http://studentaffairs.stanford.edu/registrar/students/coterm/tuition
   url: http://www.stanford.edu/dept/registrar/bulletin0910/4838.htm
   url: http://studentaffairs.stanford.edu/sites/default/files/registrar/files/CotermApplic.pdf
+  url: https://ee.stanford.edu/current-students/undergraduate-students
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/housing-rate-and-billing-information
 query: nvidia hall driving directions 
   url: http://campus-map.stanford.edu/
   url: http://energyseminar.stanford.edu/nvidia
-  url: http://events.stanford.edu/2014/April/
   url: http://events.stanford.edu/byCategory/22/
-  url: https://events.stanford.edu/2014/January/27/
+  url: http://events.stanford.edu/2014/April/
   url: http://symsys.stanford.edu/viewing/webpage/21277
   url: http://events.stanford.edu/2014/April/9/
   url: http://events.stanford.edu/2014/April/7/
   url: http://events.stanford.edu/2014/April/30/
   url: https://events.stanford.edu/2014/January/
+  url: https://events.stanford.edu/2014/January/27/
 query: stanford information retrieval and web search course spring calendar 
-  url: https://ccrma.stanford.edu/workshops/music-information-retrieval-mir
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=11807
+  url: https://ccrma.stanford.edu/workshops/music-information-retrieval-mir
   url: http://www.stanford.edu/class/cs276/
   url: http://www.stanford.edu/class/msande239/
   url: http://explorecourses.stanford.edu/search?page=11&q=CS&filter-coursestatus-Active=on&view=catalog&filter-departmentcode-CS=on&academicYear=20122013
+  url: http://www.stanford.edu/class/cs276/courseinfo.html
   url: http://explorecourses.stanford.edu/search?page=12&q=LINGUIST&filter-coursestatus-Active=on&view=timeschedule&filter-departmentcode-LINGUIST=on&academicYear=20112012
+  url: http://explorecourses.stanford.edu/CourseSearch/search?page=12&q=CS&view=timeschedule&academicYear=20132014&filter-catalognumber-CS=on
   url: http://scpd.stanford.edu/search/publicTermScheduleSearch.do?method=load&term=Spring%202013-14
   url: http://scpd.stanford.edu/search/publicTermScheduleSearch.do?method=load&term=Spring%202012-13
-  url: http://www.stanford.edu/class/cs276/courseinfo.html
-  url: http://explorecourses.stanford.edu/CourseSearch/search?page=12&q=CS&view=timeschedule&academicYear=20132014&filter-catalognumber-CS=on
 query: math 51 syllabus 
   url: http://www.stanford.edu/class/math51/syllabus.html
-  url: http://summer.stanford.edu/wp-content/uploads/2013/10/MATH_51_2013.pdf
   url: http://math51.stanford.edu/
+  url: http://summer.stanford.edu/wp-content/uploads/2013/10/MATH_51_2013.pdf
   url: http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=math51&collapse=
-  url: http://www.stanford.edu/class/math51/51exams.html
   url: http://explorecourses.stanford.edu/CourseSearch/search?filter-catalognumber-MATH=on&page=0&catalog=&q=MATH&view=timeschedule
+  url: http://www.stanford.edu/class/math51/51exams.html
   url: http://www.stanford.edu/class/math51/moj.html
-  url: http://math.stanford.edu/~tarn/math51/info.html
-  url: http://statweb.stanford.edu/~candes/math104/index.shtml
   url: http://www.stanford.edu/class/math51h/
+  url: http://statweb.stanford.edu/~candes/math104/index.shtml
+  url: http://math.stanford.edu/~tarn/math51/info.html
 query: free music performances 
-  url: http://music.stanford.edu/Events/StanfordMusicSymposium/
   url: https://music.stanford.edu/Events/calendar.html
-  url: http://music.stanford.edu/Events/noonRecitals.html
-  url: http://music.stanford.edu/SLSQ/index.html
   url: https://ccrma.stanford.edu/events/ccrma-fall-concert-0
-  url: https://music.stanford.edu/
-  url: http://news.stanford.edu/news/2012/february/bing-hall-opening-022812.html
+  url: http://music.stanford.edu/Events/noonRecitals.html
   url: http://live.stanford.edu/calendar
+  url: https://music.stanford.edu/
+  url: http://music.stanford.edu/SLSQ/index.html
+  url: http://music.stanford.edu/Events/StanfordMusicSymposium/
   url: https://www.stanford.edu/group/sso/cgi-bin/wordpress/concerts-tickets/2013-2014/
+  url: http://news.stanford.edu/news/2012/february/bing-hall-opening-022812.html
   url: http://events.stanford.edu/byLocation/604/
 query: spring exam stanford 
-  url: https://studentaffairs.stanford.edu/registrar/spring-exams-1213
   url: http://lawreg.stanford.edu/stanford/prereg/schedules.asp
+  url: https://studentaffairs.stanford.edu/registrar/spring-exams-1213
   url: https://studentaffairs.stanford.edu/registrar/future-exams
-  url: http://www.law.stanford.edu/courses/criminal-procedure-adjudication
   url: http://studentaffairs.stanford.edu/registrar/final-exams
   url: http://cs142.stanford.edu/
   url: http://www.gsb.stanford.edu/cmc/calendar
-  url: http://stanfordmedicine25.stanford.edu/the25/precordial.html
+  url: http://www.law.stanford.edu/courses/criminal-procedure-adjudication
   url: http://exploredegrees.stanford.edu/academiccalendar/
+  url: http://stanfordmedicine25.stanford.edu/the25/precordial.html
   url: http://exploredegrees.stanford.edu/graduatedegrees/
 query: free student software 
-  url: http://answers.stanford.edu/category/software-stanford/free-software
   url: http://answers.stanford.edu/solution/where-can-i-get-free-software-stanford
+  url: http://answers.stanford.edu/category/software-stanford/free-software
+  url: https://itservices.stanford.edu/service/softwarelic
   url: http://www.stanford.edu/dept/its/cgi-bin/services/software/portal/advanced_search.php
   url: https://acomp.stanford.edu/students/gettingstarted
-  url: https://engineering.stanford.edu/news/stanford-offer-more-free-online-classes
-  url: https://itservices.stanford.edu/service/softwarelic
-  url: https://answers.stanford.edu/taxonomy/term/377/0
-  url: http://www.stanford.edu/group/scandinavians/cgi-bin/site/wp-includes/Text/diffs.php?soft=446
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do;jsessionid=72F4934287CC7B46CFD336F4C1108412?method=load&courseId=11813
   url: https://www.stanford.edu/group/bookstore/SUprices/softwarecart2.html
+  url: https://answers.stanford.edu/taxonomy/term/377/0
+  url: https://engineering.stanford.edu/news/stanford-offer-more-free-online-classes
+  url: http://www.stanford.edu/group/scandinavians/cgi-bin/site/wp-includes/Text/diffs.php?soft=446
 query: stanford reject 
   url: https://benefits.stanford.edu/resources/vdi-rejection-form
   url: http://benefits.stanford.edu/resources/voluntary-disability-insurance-plan-vdi-faq
-  url: http://med.stanford.edu/ism/2013/july/botryllus-0731.html
-  url: http://scopeblog.stanford.edu/2012/03/08/kidney-transplant-recipients-party-without-drugs-immune-suppressing-anti-rejection-drugs-that-is/
   url: http://news.stanford.edu/news/2005/april13/bizkids-041305.html
   url: http://studentaffairs.stanford.edu/cdc/evaluating/offers
-  url: http://nlp.stanford.edu/~rkarthik/DAGAP.pdf
-  url: http://www.stanford.edu/~gbower/1969/continuity_theory_revisited.pdf
+  url: http://med.stanford.edu/ism/2013/july/botryllus-0731.html
   url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=66225
+  url: http://www.stanford.edu/~gbower/1969/continuity_theory_revisited.pdf
+  url: http://scopeblog.stanford.edu/2012/03/08/kidney-transplant-recipients-party-without-drugs-immune-suppressing-anti-rejection-drugs-that-is/
+  url: http://nlp.stanford.edu/~rkarthik/DAGAP.pdf
   url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=41432
 query: no zuo no die 
-  url: http://searchworks.stanford.edu/view/7736187
   url: http://searchworks.stanford.edu/view/4204291
+  url: http://searchworks.stanford.edu/view/7736187
+  url: http://searchworks.stanford.edu/view/6862393
   url: http://searchworks.stanford.edu/view/8120981
   url: https://faculty-gsb.stanford.edu/lazear/personal/PDFs/Bosses.pdf
-  url: http://searchworks.stanford.edu/view/6862393
-  url: http://med.stanford.edu/labs/matthew_scott/pubs/GoodrichDevBio211.323.334.pdf
-  url: https://med.stanford.edu/profiles/hesc/4280
-  url: http://www.stanford.edu/group/adolescence/cgi-bin/coa/sites/default/files/Immordino-Yang.PPS.2012.pdf
   url: http://www.stanford.edu/~hastie/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf
   url: http://ai.stanford.edu/~wzou/
+  url: http://www.stanford.edu/group/adolescence/cgi-bin/coa/sites/default/files/Immordino-Yang.PPS.2012.pdf
+  url: http://med.stanford.edu/labs/matthew_scott/pubs/GoodrichDevBio211.323.334.pdf
+  url: https://med.stanford.edu/profiles/hesc/4280
 query: meyers library printing policy 
-  url: http://www.stanford.edu/dept/SUL/acomp_dev/clusters/meyer_printing.html
-  url: http://library.stanford.edu/using/print-copy-scan
   url: http://library.stanford.edu/news/2012/11/meyer-library-demolition
-  url: https://library.stanford.edu/using/access-and-privileges/privileges-university-library-affiliates/alumni
+  url: http://library.stanford.edu/using/print-copy-scan
   url: https://library.stanford.edu/using/print-copy-scan/poster-large-format-printing
+  url: http://www.stanford.edu/dept/SUL/acomp_dev/clusters/meyer_printing.html
   url: http://library.stanford.edu/hours
-  url: https://studentaffairs.stanford.edu/sal/manage/free-cheap-resources
+  url: https://library.stanford.edu/using/access-and-privileges/privileges-university-library-affiliates/alumni
   url: http://library.stanford.edu/
+  url: https://studentaffairs.stanford.edu/sal/manage/free-cheap-resources
   url: http://library.stanford.edu/news/2013/10/all-shook
   url: http://acomp.stanford.edu/spaces/public
 query: r&de student housing cost 
-  url: https://studentaffairs.stanford.edu/gradadmissions/admitted/housing
-  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/housing-rate-and-billing-information
   url: http://studenthousing.stanford.edu/
+  url: https://studentaffairs.stanford.edu/gradadmissions/admitted/housing
+  url: http://www.stanford.edu/dept/rde/chs/
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/living/undergraduate-housing-newsletter-december-2013
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/undergraduate-meal-plans
+  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/housing-rate-and-billing-information
+  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/oak-creek-apartments
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/living/oak-creek-newsletter-january-2014
   url: http://studenthousing.stanford.edu/sites/default/files/pdfs/2013-14_Residence_Agreement.pdf
-  url: http://www.stanford.edu/dept/rde/chs/
-  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/oak-creek-apartments
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/undergraduate-meal-plans
   url: http://studenthousing.stanford.edu/sites/default/files/SLG_textonly.pdf
 query: the play 
-  url: http://news.stanford.edu/news/2013/april/brecht-learning-play-042413.html
   url: http://csi.gsb.stanford.edu/scaling-play
-  url: http://scopeblog.stanford.edu/2014/02/03/celebrating-carl-djerassis-90th-birthday-with-his-latest-play-insufficiency/
+  url: http://news.stanford.edu/news/2013/april/brecht-learning-play-042413.html
   url: http://alumni.stanford.edu/get/page/magazine/article/?article_id=37765
-  url: http://news.stanford.edu/news/2010/may/troilus-051310.html
   url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=37651
   url: http://alumni.stanford.edu/get/page/magazine/article/?article_id=33355
+  url: http://news.stanford.edu/news/2010/may/troilus-051310.html
+  url: http://scopeblog.stanford.edu/2014/02/03/celebrating-carl-djerassis-90th-birthday-with-his-latest-play-insufficiency/
   url: http://alumni.stanford.edu/goto/borylaplay
   url: https://summercollege.stanford.edu/include/download.asp?nm=20130425_ENGLISH_163A_2013.pdf
   url: http://alumni.stanford.edu/get/page/magazine/article/?article_id=42547
 query: fountain hopping 
-  url: http://www.stanford.edu/group/resed/flomo/westflomo/paloma/05-06/staff.shtml
-  url: http://news.stanford.edu/news/2011/june/claw-makeover-update-061011.html
   url: http://news.stanford.edu/news/2013/july/campus-summer-slideshow-070313.html
-  url: http://ccr.stanford.edu/archive/Baxter/FountainsOfStanford.pdf
+  url: http://www.stanford.edu/group/resed/flomo/westflomo/paloma/05-06/staff.shtml
   url: http://www.stanford.edu/group/ccr/blog/2007/09/stanford_culture_an_introducti.html
+  url: http://news.stanford.edu/news/2011/june/claw-makeover-update-061011.html
+  url: http://ccr.stanford.edu/archive/Baxter/FountainsOfStanford.pdf
   url: https://www.stanford.edu/about/speak
   url: http://www.stanford.edu/group/ccr/blog/2009/02/an_insiders_guide_for_outsider_1.html
   url: http://tusb.stanford.edu/2007/03/holi_at_stanford_desi_ishtyle.html
   url: http://www.stanford.edu/group/cellardoor/cgi-bin/home/2012/11/meet-sarah-weston/
   url: http://tusb.stanford.edu/2012/02/camp-stanford-checklist.html
 query: cheapest dorm rent 
-  url: http://tusb.stanford.edu/2011/09/dorm-sweet-dorm.html
   url: http://fsh.stanford.edu/hfs/
+  url: http://tusb.stanford.edu/2011/09/dorm-sweet-dorm.html
   url: http://unofficial.stanford.edu/
-  url: http://news.stanford.edu/thedish/?cat=9
-  url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=39046
-  url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=38127
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/housing-options
+  url: http://news.stanford.edu/thedish/?cat=9
   url: http://www.stanford.edu/dept/soc/resources/baylinks.html
-  url: http://gsc.stanford.edu/Advocacy/Surveys/GradHousing/On-CampusComments.shtml
+  url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=39046
   url: http://historicalsociety.stanford.edu/pdfST/ST16no4.pdf
+  url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=38127
+  url: http://gsc.stanford.edu/Advocacy/Surveys/GradHousing/On-CampusComments.shtml
 query: stanford draw cutoffs 
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/charts/draw-cutoff-women-2012
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/charts/undergraduate-stats
   url: http://thedraw.stanford.edu/
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/thedraw/students-disabilities
   url: http://www.stanford.edu/~niederle/RandomAssignment.pdf
-  url: http://www.stanford.edu/~sloeb/papers/How%20Much%20Too%20Much.pdf
-  url: http://www.stanford.edu/class/math20/
   url: http://nova.stanford.edu/~vlf/publications/085.pdf
+  url: http://www.stanford.edu/~sloeb/papers/How%20Much%20Too%20Much.pdf
   url: http://lib.stanford.edu/links/goto/3867
+  url: http://www.stanford.edu/class/math20/
   url: http://statweb.stanford.edu/~cgates/PERSI/papers/aldous86.pdf
 query: freshman meningitis 
-  url: http://www.stanford.edu/dept/registrar/bulletin_past/pdf/FSP.pdf
   url: http://vaden.stanford.edu/new_students/immunization_rec.html
+  url: http://vaden.stanford.edu/new_students/entrance_req.html
+  url: http://www.stanford.edu/dept/registrar/bulletin_past/pdf/FSP.pdf
   url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=59977
   url: http://www.stanford.edu/dept/registrar/bulletin_past/pdf/0708_Bulletin.pdf
   url: http://peds.stanford.edu/Rotations/picu/pdfs/18_meningococcemia.pdf
-  url: http://vaden.stanford.edu/new_students/entrance_req.html
   url: http://cap.stanford.edu/profiles/viewCV?facultyId=14014&name=Erik_Mittra
   url: http://parents.stanford.edu/vital-information/living/
   url: http://nuclearmedicine.stanford.edu/docs/CVs/CV_mittra.pdf
   url: http://www.stanford.edu/group/sas/files/frosh.pdf
 query: best student organization 
   url: http://www.stanford.edu/group/uga/student/organizations/index.html
-  url: https://studentaffairs.stanford.edu/sal/involved/new-group-criteria
-  url: http://bases.stanford.edu/
-  url: http://studentaffairs.stanford.edu/cdc/news/SAMferrazzi2014
   url: https://studentaffairs.stanford.edu/sal/involved/groups
+  url: http://bases.stanford.edu/
   url: http://studentaffairs.stanford.edu/cdc/interviewing/sample-qs
-  url: https://studentaffairs.stanford.edu/sal/manage/stanford-fund
   url: https://studentaffairs.stanford.edu/sal/manage/critical-policies
+  url: https://studentaffairs.stanford.edu/sal/manage/stanford-fund
+  url: https://studentaffairs.stanford.edu/sal/involved/new-group-criteria
+  url: http://studentaffairs.stanford.edu/cdc/news/SAMferrazzi2014
   url: https://studentaffairs.stanford.edu/cdc/resumes/cover-ltr-writing
   url: http://studentaffairs.stanford.edu/cdc/resumes/writing
 query: mailing lists 
   url: ftp://meatloaf.stanford.edu/go/www/GO.mailing.lists.shtml
   url: https://studentaffairs.stanford.edu/lgbtcrc/quest/mailing-lists
+  url: https://itservices.stanford.edu/service/mailinglists
   url: http://www.stanford.edu/group/ivgrad/resources/mailings.html
   url: https://itservices.stanford.edu/service/mailinglists/policies
-  url: https://itservices.stanford.edu/service/mailinglists
   url: https://itservices.stanford.edu/strategy/enduserapps/mailinglists
-  url: https://mailman.stanford.edu/mailman/listinfo/mininet-discuss
   url: https://mailman.stanford.edu/mailman/listinfo/liberationtech
+  url: https://mailman.stanford.edu/mailman/listinfo/mininet-discuss
   url: http://fed-soc.stanford.edu/email.htm
   url: http://www.slac.stanford.edu/comp/net/majordomo/majordomo-admin.html
 query: tresidder union parking lot 
   url: https://continuingstudies.stanford.edu/policies/drivingdirections.php
   url: https://studentaffairs.stanford.edu/tresiddermeeting/room/info
   url: http://cisac.stanford.edu/directions/index-navless.php?defmap=12
-  url: http://transportation.stanford.edu/parking_info/VisitorParking.shtml
   url: http://aasa.stanford.edu/lts/main.html
+  url: http://transportation.stanford.edu/parking_info/VisitorParking.shtml
   url: http://maps.stanford.edu/ada/building-ada.cfm?FACIL_ID=02-580
   url: https://lib.stanford.edu/archive-recorded-sound/maps-driving-parking
   url: http://maps.stanford.edu/ada/building-ada.cfm?FACIL_ID=02-920
-  url: https://coa.stanford.edu/maps-directions
   url: http://maps.stanford.edu/ada/building-ada.cfm?FACIL_ID=02-400
+  url: https://coa.stanford.edu/maps-directions
 query: stanford mba class profile 
-  url: http://www.stanford.edu/group/mba/blog/2012/10/class_profile_for_stanford_mba.html
   url: https://www.gsb.stanford.edu/programs/mba/admission/evaluation-criteria/class-profile
+  url: http://www.stanford.edu/group/mba/blog/2012/10/class_profile_for_stanford_mba.html
   url: http://www.gsb.stanford.edu/newsroom/school-profile
   url: https://alumni.gsb.stanford.edu/networks/class_sites
-  url: https://www.gsb.stanford.edu/programs/mba/admission/evaluation-criteria
   url: http://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum
+  url: https://www.gsb.stanford.edu/programs/mba/admission/evaluation-criteria
   url: http://www.gsb.stanford.edu/programs/msx/academic-experience/fellows
   url: https://www.gsb.stanford.edu/programs/msx
   url: http://www.gsb.stanford.edu/users/saloner
   url: http://www.gsb.stanford.edu/
 query: medical school location 
-  url: http://med.stanford.edu/irt/about/maps-directions/lksc-directions.html
-  url: http://med.stanford.edu/commencement/
-  url: http://msm.stanford.edu/
-  url: http://bloodcenter.stanford.edu/
   url: http://med.stanford.edu/
   url: http://med.stanford.edu/maps/
+  url: http://bloodcenter.stanford.edu/
   url: http://med.stanford.edu/gme/contact.html
   url: https://med.stanford.edu/irt/
   url: http://pathology.stanford.edu/
+  url: http://med.stanford.edu/irt/about/maps-directions/lksc-directions.html
   url: http://gastrohep.stanford.edu/
+  url: http://msm.stanford.edu/
+  url: http://med.stanford.edu/commencement/
 query: cs276 information retrieval 
-  url: http://www.stanford.edu/class/cs276/handouts/lecture3-tolerant-retrieval.ppt
   url: http://www.stanford.edu/class/cs276/
+  url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=11807
+  url: http://www.stanford.edu/class/cs276/handouts/lecture3-tolerant-retrieval.ppt
   url: http://www.stanford.edu/class/cs276/handouts/lecture14-learning-ranking.ppt
   url: http://www.stanford.edu/class/cs276/handouts/lecture12-clustering.ppt
   url: http://www.stanford.edu/class/cs276/handouts/lecture15-webchar.ppt
-  url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=11807
   url: http://www.stanford.edu/class/cs276/handouts/lecture14-SVMs.ppt
   url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CS+276%3A+Information+Retrieval+and+Web+Search&collapse=
   url: http://explorecourses.stanford.edu/print?q=CS+276%3A+Information+Retrieval+and+Web+Search&filter-coursestatus-Active=on&descriptions=on&academicYear=20132014&catalog=
   url: http://explorecourses.stanford.edu/print?q=CS+276%3A+Information+Retrieval+and+Web+Search&filter-coursestatus-Active=on&schedules=on&academicYear=20122013&catalog=
 query: dining hall closest to escondido village 
-  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/frontdesk/escondido-village
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village-lowrise-apartments
+  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/frontdesk/escondido-village
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village-highrise-apartments
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/escondido-village-midrise-apartments
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/conferences/indiv-app/non-students/options/evstudio
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/mirrielees-house
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/sites/default/files/pdfs/2014-15_Apply_for_housing_grad_brochure.pdf
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/mirrielees-house
+  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/sites/default/files/pdfs/2014-15_Applying_for_Graduate_Housing_text_only.pdf
   url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=36714
   url: https://mailman.stanford.edu/pipermail/grad-events/2009-December.txt
-  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/sites/default/files/pdfs/2014-15_Applying_for_Graduate_Housing_text_only.pdf
 query: math lib 
   url: https://ccrma.stanford.edu/~jos/aspf/Understanding_count_take_math_lib.html
-  url: https://lib.stanford.edu/mathematics-statistics-library/hours-location
   url: http://mtz01-a.stanford.edu/programs/documentation/ifc/f_ug/math_libs.htm
   url: https://library.stanford.edu/mathstat
   url: http://library.stanford.edu/libraries/mathstat/about
-  url: http://www.scs.stanford.edu/histar/src/pkg/uclibc/libm/Makefile.in
-  url: http://www.stanford.edu/~fringer/teaching/operating_systems_03/handouts/lecture5.pdf
-  url: http://graphics.stanford.edu/~mdfisher/Code/VideoCaptureDLL/Engine.h
+  url: https://lib.stanford.edu/mathematics-statistics-library/hours-location
   url: http://library.stanford.edu/hours
+  url: http://www.stanford.edu/~fringer/teaching/operating_systems_03/handouts/lecture5.pdf
+  url: http://www.scs.stanford.edu/histar/src/pkg/uclibc/libm/Makefile.in
+  url: http://graphics.stanford.edu/~mdfisher/Code/VideoCaptureDLL/Engine.h
   url: http://ccrma.stanford.edu/planetccrma/mirror/fedora/linux/planetccrma/11/i386/repoview/supercollider-mathlib.html
 query: terman library hours 
-  url: http://library.stanford.edu/blogs/stanford-libraries-blog/2013/06/new-gadget-bar-terman-engineering-library
-  url: https://library.stanford.edu/englib/using-terman-library
-  url: http://library.stanford.edu/libraries/englib/about
-  url: http://library.stanford.edu/news/2013/06/terman-library-gadget-bar-refresh
-  url: https://library.stanford.edu/englib/using-terman-library/course-reserves
-  url: http://library.stanford.edu/collections/frederick-emmons-terman-book-collection
   url: http://library.stanford.edu/englib
+  url: http://library.stanford.edu/libraries/englib/about
+  url: https://library.stanford.edu/englib/using-terman-library
   url: http://library.stanford.edu/englib/contact-us
+  url: http://library.stanford.edu/news/2013/06/terman-library-gadget-bar-refresh
+  url: http://library.stanford.edu/blogs/stanford-libraries-blog/2013/06/new-gadget-bar-terman-engineering-library
   url: https://library.stanford.edu/englib/technology/software
+  url: http://library.stanford.edu/collections/frederick-emmons-terman-book-collection
+  url: https://library.stanford.edu/englib/using-terman-library/course-reserves
   url: https://library.stanford.edu/englib/research/e-books
 query: stanford meal plan 
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/undergraduate-meal-plans
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/meal-plans-0
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/undergraduate-meal-plans
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/undergraduate-gateway
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/manzanita-dining
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/food-allergies
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/graduate-student-dining-faq
-  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/hospitality/cardinal-dollars
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/stanford-dining-mobile-applications
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/dining/graduate-student-dining-faq
   url: http://dining.stanford.edu/
+  url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/hospitality/cardinal-dollars
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/housing/mirrielees-house
 query: campus parking information 
-  url: http://transportation.stanford.edu/parking_info/ParkingInformation.shtml
   url: http://transportation.stanford.edu/parking_info/VisitorParking.shtml
-  url: http://live.stanford.edu/plan-your-visit/directions-parking
+  url: http://transportation.stanford.edu/parking_info/ParkingInformation.shtml
   url: https://commencement.stanford.edu/plan-your-visit/parking
-  url: http://transportation.stanford.edu/parking_info/DisabledInfo.shtml
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/conferences/sites/default/files/pdf/Parking_for_Special_Events.pdf
+  url: http://live.stanford.edu/plan-your-visit/directions-parking
   url: http://transportation.stanford.edu/
   url: http://visit.stanford.edu/plan/
+  url: http://transportation.stanford.edu/parking_info/DisabledInfo.shtml
   url: http://med.stanford.edu/maps/som_directions_map.pdf
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/conferences/sites/default/files/pdf/Parking_for_Special_Events.pdf
   url: http://transportation.stanford.edu/nso-bike/
 query: ee ms degree required units 
   url: http://ee.stanford.edu/sites/default/files/ee-forms/MS-Program-Proposal.pdf
-  url: https://ee.stanford.edu/admissions/part-time-graduate-degree-information
   url: https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=EE+290B%3A+Curricular+Practical+Training+for+Electrical+Engineers&collapse=
-  url: http://ee.stanford.edu/sites/default/files/student_services/MS-Orientation-Session-2012-1.pptx
-  url: http://cs.stanford.edu/degrees/ug/Considering.shtml
   url: http://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1227185
+  url: https://ee.stanford.edu/admissions/part-time-graduate-degree-information
+  url: http://ee.stanford.edu/sites/default/files/student_services/MS-Orientation-Session-2012-1.pptx
   url: https://www.stanford.edu/dept/registrar/bulletin1112/4909.htm
+  url: http://cs.stanford.edu/degrees/ug/Considering.shtml
   url: https://www.stanford.edu/dept/registrar/bulletin1112/7376.htm
   url: http://www.stanford.edu/dept/MSandE/cgi-bin/academics/pdfs/MSpgm.pdf
   url: http://www.stanford.edu/dept/registrar/bulletin1112/5269.htm
 query: tresidder union location 
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/hospitality/tresidder
-  url: http://www.stanford.edu/dept/rde/shaa/subway.htm
-  url: http://emergency.stanford.edu/
   url: https://studentaffairs.stanford.edu/tresiddermemorial
+  url: http://emergency.stanford.edu/
   url: http://campus-map.stanford.edu/
+  url: http://www.stanford.edu/dept/rde/shaa/subway.htm
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/hospitality/tresidder
   url: http://studentaffairs.stanford.edu/tresiddermeeting/room/maps-plans
   url: https://studentaffairs.stanford.edu/tresiddermeeting/room/info
+  url: https://acomp.stanford.edu/tresidder
   url: http://www.stanford.edu/dept/visitorinfo/activities/shopping.html
   url: http://transportation.stanford.edu/parking_info/VisitorParking.shtml
-  url: https://acomp.stanford.edu/tresidder
 query: 2014 academic calendar 
-  url: http://studentaffairs.stanford.edu/registrar/academic-calendar/week/2014-W16
-  url: https://www.gsb.stanford.edu/programs/mba/academic-experience/academic-calendar
   url: https://studentaffairs.stanford.edu/registrar/academic-calendar-1415
   url: https://www.law.stanford.edu/sites/default/files/portal/current-students/doc/slspublic/2013-2014-academic-calendar-final-.pdf
+  url: http://studentaffairs.stanford.edu/registrar/academic-calendar/week/2014-W16
   url: http://studentaffairs.stanford.edu/registrar/academic-calendar-1314
+  url: https://www.gsb.stanford.edu/programs/mba/academic-experience/academic-calendar
   url: https://www.law.stanford.edu/calendar/2014-03-21
+  url: http://www.law.stanford.edu/students
   url: https://www.law.stanford.edu/calendar/2014-02-13
   url: https://continuingstudies.stanford.edu/policies/academiccalendar.php
-  url: http://www.law.stanford.edu/students
   url: http://exploredegrees.stanford.edu/academiccalendar/academiccalendar.pdf
 query: where to get beer for 19 year old freshman 
-  url: http://www.stanford.edu/group/iuc/frosh.html
   url: http://historicalsociety.stanford.edu/pdfST/ST32no1.pdf
-  url: http://historicalsociety.stanford.edu/pdfST/ST24no1.pdf
+  url: http://www.stanford.edu/group/iuc/frosh.html
   url: https://tusb.stanford.edu/author/leigh
+  url: http://news.stanford.edu/news/2005/march9/gioia-030905.html
+  url: http://historicalsociety.stanford.edu/pdfST/ST24no1.pdf
   url: http://hoohila.stanford.edu/firingline/transcriptList.php
   url: http://news.stanford.edu/thedish/?m=201208
-  url: http://news.stanford.edu/news/2005/march9/gioia-030905.html
   url: http://www.stanford.edu/group/sauti/Archives_files/SAUTI-07-08%20Vol%204.pdf
   url: http://cs.stanford.edu/people/nick/cs1i972.html
   url: http://opensource.stanford.edu/aggregator?page=11
 query: 650-723-2300 
+  url: http://www.stanford.edu/contact/
+  url: http://med.stanford.edu/contacts/
   url: http://library.stanford.edu/libraries/engineering-terman/reference
   url: http://psychiatry.stanford.edu/contact/
   url: https://stanfordwho.stanford.edu/lookup?search=kachru,shamit
   url: http://spice.stanford.edu/people/johanna_wee/
-  url: http://www.stanford.edu/contact/
-  url: http://med.stanford.edu/contacts/
-  url: http://library.stanford.edu/spc/more-about-us/staff-directory
-  url: http://cs.stanford.edu/content/ms-contact-and-additional-information-0
   url: http://www.stanford.edu/dept/ucomm/neighbors/contact/
   url: http://spice.stanford.edu/people/sabrina_ishimatsu/
+  url: http://library.stanford.edu/spc/more-about-us/staff-directory
+  url: http://cs.stanford.edu/content/ms-contact-and-additional-information-0
 query: affirmative action policy 
+  url: https://adminguide.stanford.edu/chapter-5/subchapter-5/policy-5-5-1
   url: http://plato.stanford.edu/entries/affirmative-action/
   url: http://www.gsb.stanford.edu/news/research/lowrey_affirm.shtml
-  url: https://adminguide.stanford.edu/chapter-5/subchapter-5/policy-5-5-1
   url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=43448
   url: https://alumni.stanford.edu/get/page/magazine/article/?article_id=43428
+  url: http://news.stanford.edu/news/2012/october/amicus-brief-fisher-101512.html
   url: http://news.stanford.edu/news/1999/march10/diversity310.html
   url: http://news.stanford.edu/news/2004/may5/breyer-55.html
-  url: http://news.stanford.edu/news/2012/october/amicus-brief-fisher-101512.html
   url: http://www.stanford.edu/~gwalton/home/Publications_files/WaltonSpencerErman_%20PolicySummary.pdf
   url: http://scid.stanford.edu/?q=system/files/shared/pubs/430_Kochar.pdf
 query: chris manning email 
   url: http://nlp.stanford.edu/manning/
   url: http://med.stanford.edu/profiles/cancer/researcher/Chris_Manning/
   url: http://nlp.stanford.edu/projects/DropoutLearning.shtml
-  url: http://nlp.stanford.edu/manning/courses/compapp/
   url: http://nlp.stanford.edu/projects/DeepLearningInNaturalLanguageProcessing.shtml
   url: http://nlp.stanford.edu/~sidaw/home/start
   url: http://nlp.stanford.edu/manning/tex/
   url: http://nlp.stanford.edu/~mcclosky/
+  url: http://nlp.stanford.edu/manning/courses/compapp/
   url: http://nlp.stanford.edu/manning/mobile/IMAPfiltering.html
   url: http://nlp.stanford.edu/read/
 query: scpd ndo 
@@ -981,86 +981,86 @@ query: scpd ndo
   url: http://scpd.stanford.edu/generalInformation/forms.jsp
   url: https://scpd.stanford.edu/portal/applications/applicationProfile.do?method=loadApplicationIndex&applicationProfileId=1285200
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=11720
-  url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=9841072
   url: http://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=10555807
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=12060
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=11722
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=1144184
   url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=11707
+  url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=9841072
 query: how many bikes at stanford 
   url: http://transportation.stanford.edu/bike/
-  url: http://tusb.stanford.edu/2012/04/the-dreaded-stanford-bike-police-and-how-to-escape.html
   url: http://transportation.stanford.edu/nso-bike/
+  url: http://tusb.stanford.edu/2012/04/the-dreaded-stanford-bike-police-and-how-to-escape.html
   url: http://scopeblog.stanford.edu/2012/11/01/stanford-leaders-raise-awareness-about-the-importance-of-bike-helmets/
   url: http://www.stanford.edu/group/SUDPS/bicycle.shtml
-  url: http://www-leland.stanford.edu/~dru/triplecheat.html
-  url: http://tusb.stanford.edu/2010/09/danger-stanford-police-using-undercover-cars-to-harass-bikers.html
   url: https://www.stanford.edu/group/SUDPS/contact.shtml
   url: http://facts.stanford.edu/about/lands
   url: http://facts.stanford.edu/campuslife/
+  url: http://www-leland.stanford.edu/~dru/triplecheat.html
+  url: http://tusb.stanford.edu/2010/09/danger-stanford-police-using-undercover-cars-to-harass-bikers.html
 query: library location 
-  url: http://library.stanford.edu/libraries/falconer/about
+  url: https://www.stanford.edu/group/cubberley/node/7
+  url: http://library.stanford.edu/englib
   url: http://library.stanford.edu/libraries/englib/about
+  url: http://library.stanford.edu/libraries/falconer/about
   url: http://library.stanford.edu/libraries/mathstat/about
   url: http://library.stanford.edu/libraries/branner/about
-  url: http://library.stanford.edu/englib
   url: http://library.stanford.edu/hours
-  url: https://www.stanford.edu/group/cubberley/node/7
   url: https://lib.stanford.edu/eal-chinese
   url: https://library.stanford.edu/mathstat
   url: http://www.gsb.stanford.edu/library/services-facilities
 query: course units explanation 
-  url: http://epgy.stanford.edu/for-parents/epgy-courses/courses
-  url: http://explorecourses.stanford.edu/search?page=4&q=OB&filter-departmentcode-OB=on&filter-coursestatus-Active=on&view=catalog&academicYear=20112012
-  url: https://humbio.stanford.edu/node/911
-  url: https://studentaffairs.stanford.edu/registrar/faculty/unit-of-credit
   url: http://cs.stanford.edu/degrees/mscs/classes/planning/
-  url: http://explorecourses.stanford.edu/print?page=0&q=OSPKYOCT&filter-coursestatus-Active=on&descriptions=on&filter-departmentcode-OSPKYOCT=on&academicYear=20122013&catalog=
-  url: http://explorecourses.stanford.edu/CourseSearch/search?view=catalog&page=0&catalog=&q=GES+110&collapse=
+  url: https://studentaffairs.stanford.edu/registrar/faculty/unit-of-credit
+  url: https://humbio.stanford.edu/node/911
   url: http://gap.stanford.edu/4-2.html
+  url: http://epgy.stanford.edu/for-parents/epgy-courses/courses
+  url: http://explorecourses.stanford.edu/print?page=0&q=OSPKYOCT&filter-coursestatus-Active=on&descriptions=on&filter-departmentcode-OSPKYOCT=on&academicYear=20122013&catalog=
+  url: http://explorecourses.stanford.edu/search?page=4&q=OB&filter-departmentcode-OB=on&filter-coursestatus-Active=on&view=catalog&academicYear=20112012
+  url: http://explorecourses.stanford.edu/CourseSearch/search?view=catalog&page=0&catalog=&q=GES+110&collapse=
   url: http://studentaffairs.stanford.edu/registrar/students/grades-definition
   url: http://www.stanford.edu/~efs/callcourse2/CALL6.htm
 query: housing assignments deadline 
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/calendar/deadline-file-split-group-petitions-summer-waiting-list-assignments
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/undergraduate-pre-assignments-and-special-program-houses
   url: https://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/undergraduate-housing-draw
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/calendar/undergrad
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/undergraduate-pre-assignments-and-special-program-houses
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/overview
+  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/calendar/deadline-file-split-group-petitions-summer-waiting-list-assignments
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/single-graduate-housing
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/summer/summer-housing-first-round-summer-lottery
-  url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/overview
+  url: http://studenthousing.stanford.edu/
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/reassignments
   url: http://www.stanford.edu/dept/rde/cgi-bin/drupal/housing/apply/change-withdraw-application
-  url: http://studenthousing.stanford.edu/
 query: mscs program sheet 
   url: http://cs.stanford.edu/degrees/mscs/programsheets/
   url: http://cs.stanford.edu/degrees/mscs/programsheets/09-10/MSCS-0910-ID.doc
-  url: http://cs.stanford.edu/degrees/mscs/programsheets/07-08/MSCS-0708-RWC.doc
   url: http://cs.stanford.edu/degrees/mscs/programsheets/09-10/MSCS-0910-RWC.pdf
-  url: http://cs.stanford.edu/degrees/mscs/programsheets/psguide0405.pdf
+  url: http://cs.stanford.edu/degrees/mscs/programsheets/07-08/MSCS-0708-RWC.doc
   url: http://cs.stanford.edu/degrees/mscs/programsheets/psguide1314.pdf
   url: http://cs.stanford.edu/degrees/mscs/programsheets/12-13/MSCS-1213-Systems-Dual.doc
+  url: http://cs.stanford.edu/degrees/mscs/programsheets/psguide0405.pdf
   url: http://cs.stanford.edu/degrees/mscs/specializations/
   url: http://cs.stanford.edu/degrees/mscs/advisor.php
   url: https://curis.stanford.edu/projects/
 query: undergraduate financial aid 
-  url: http://giving.stanford.edu/sites/default/files/pdf/wp-undergrad-financial-aid-lr.pdf
-  url: http://www.stanford.edu/dept/finaid/faculty_staff/undergraduate.html
   url: http://finaid.stanford.edu/
+  url: http://www.stanford.edu/dept/finaid/faculty_staff/undergraduate.html
+  url: http://giving.stanford.edu/sites/default/files/pdf/wp-undergrad-financial-aid-lr.pdf
   url: http://news.stanford.edu/news/2014/february/undergrad-tuition-up-021214.html
   url: http://news.stanford.edu/news/2013/february/stanford-undergrad-tuition-021213.html
-  url: http://news.stanford.edu/news/2012/february/stanford-undergraduate-tuition-020712.html
   url: http://www.stanford.edu/dept/finaid/undergrad/how/calculator/input.html
   url: http://www.stanford.edu/dept/finaid/pdf/AcademicPlan.pdf
+  url: http://news.stanford.edu/news/2012/february/stanford-undergraduate-tuition-020712.html
   url: http://ucomm.stanford.edu/cds/
   url: http://facts.stanford.edu/academics/undergraduate-profile
 query: gates building directions 
-  url: http://theory.stanford.edu/seminar/directions-gates.html
-  url: http://forum.stanford.edu/visitors/directions/gates.php
   url: http://infolab.stanford.edu/pub/keller/gates-map.html
-  url: http://cs.stanford.edu/info/gates
+  url: http://forum.stanford.edu/visitors/directions/gates.php
+  url: http://theory.stanford.edu/seminar/directions-gates.html
   url: http://infolab.stanford.edu/infoseminar/archive/FallY96/gates-map.html
-  url: https://ee.stanford.edu/visitor-information/directions/packard
-  url: http://scien.stanford.edu/pages/conferences/HDR/Directions.html
+  url: http://cs.stanford.edu/info/gates
   url: http://hci.stanford.edu/winograd/office.html
-  url: https://forum.stanford.edu/visitors/directions/clark.php
   url: http://netseminar.stanford.edu/past_seminars/2004-09-index.html
+  url: https://ee.stanford.edu/visitor-information/directions/packard
+  url: https://forum.stanford.edu/visitors/directions/clark.php
+  url: http://scien.stanford.edu/pages/conferences/HDR/Directions.html
