@@ -22,33 +22,33 @@ public class SmallestWindowScorer extends BM25Scorer
 	public SmallestWindowScorer(Map<String, Double> idfs,Map<Query,Map<String, Document>> queryDict) 
 	{
 		super(idfs, queryDict);
-		//super(idfs);
-		//handleSmallestWindow();
-		
+		handleSmallestWindow();
 	}
+	
+	// /////////////weights///////////////////////////
+		static double urlweight = 9.0;
+		static double titleweight = 7.0;
+		static double bodyweight = 1.0;
+		static double headerweight = 7.5;
+		static double anchorweight = 1.2;
+
+		// /////bm25 specific weights///////////////
+		static double burl = 0.8;
+		static double btitle = 0.8;
+		static double bheader = 0.8;
+		static double bbody = 1.0;
+		static double banchor = 0.8;
+
+		static double k1 = 55.0;
+		static double pageRankLambda = 90.0d;
+		static double pageRankLambdaPrime = 1.0d;
+
+		//////////////////////////////
 
 	/////smallest window specifichyperparameters////////
-	static double B = 0.05;    	    
-	static double boostmod = 0.0001;
-	// /////////////weights///////////////////////////
-	static double urlweight = 8.0;
-	static double titleweight = 6.0;
-	static double bodyweight = 1.0;
-	static double headerweight = 7.5;
-	static double anchorweight = 1.2;
-
-	// /////bm25 specific weights///////////////
-	static double burl = 1.0d;
-	static double btitle = 1.0d;
-	static double bheader = 1.0d;
-	static double bbody = 1.0d;
-	static double banchor = 1.0d;
-
-	static double k1 = 50.0;
-	static double pageRankLambda = 80.0d;
-	static double pageRankLambdaPrime = 1.0d;
-
-	//////////////////////////////
+	static double boostFactor1 = 0.1d;
+	static double boostFactor2 = 0.5d;
+	
 	
 	private void handleSmallestWindow() {
 		setParameters(urlweight, titleweight, bodyweight, headerweight,
@@ -117,16 +117,13 @@ public class SmallestWindowScorer extends BM25Scorer
 		}
 		
 		List<String> queryTermsNoStop = StopWordHandler.removeStopWords(q.queryWords);
-
 		double boost = calculateBoost(smallestWindow, queryTermsNoStop.size());
-
-		System.out.println(boost);
 
 		return boost;
 	}
 
 
-	private static Map<String, List<Integer>> getHits(String field, Query q) {
+	private Map<String, List<Integer>> getHits(String field, Query q) {
 		
 		List<String> stemmedQterms = new ArrayList<String>();
 		for (String qWord : q.queryWords) {
@@ -150,12 +147,9 @@ public class SmallestWindowScorer extends BM25Scorer
 		}
 
 		return hits;
-
 	}
 
-	
-
-	private static int getWindowSize(Map<String, List<Integer>> hits, List<String> queryWords){
+	private int getWindowSize(Map<String, List<Integer>> hits, List<String> queryWords){
 		ArrayList<Integer> positions = new ArrayList<Integer>();
 		ArrayList<Iterator<Integer>> iterators = new ArrayList<Iterator<Integer>>();
 
@@ -184,7 +178,7 @@ public class SmallestWindowScorer extends BM25Scorer
 		
 	}
 
-	private static boolean advanceWindow(List<Integer> positions, List<Iterator<Integer>> iterators) {
+	private boolean advanceWindow(List<Integer> positions, List<Iterator<Integer>> iterators) {
 		int min = positions.get(0);
 		int minIndex = 0;
 		for (int i = 1; i < positions.size(); i++) {
@@ -205,12 +199,12 @@ public class SmallestWindowScorer extends BM25Scorer
 	}
 
 
-	private static double calculateBoost(int window, int length) {
+	private double calculateBoost(int window, int length) {
 
 		if(window == Integer.MAX_VALUE){
 			return 1.0;
 		}
-		double boost = 1.0 +  0.1/((double)(window-length) + 0.5);
+		double boost = 1.0 +  boostFactor1/((double)(window-length) + boostFactor2);
 		return boost;
 
 	}

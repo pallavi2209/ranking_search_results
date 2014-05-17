@@ -1,6 +1,5 @@
 package edu.stanford.cs276;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -34,8 +33,17 @@ public class BM25Scorer extends AScorer {
 	double pageRankLambda = 65.0d;
 	double pageRankLambdaPrime = 1.0d;
 
-	// ////////////////////////////////////////
-
+    ////////////bm25 data structures--feel free to modify ////////
+    
+    Map<Document,Map<String,Double>> lengths;
+    Map<String,Double> avgLengths;
+    Map<Document,Double> pagerankScores;
+    Map<String, Double> weights;
+    Map<String, Double> bvals;
+    
+    //////////////////////////////////////////
+    
+    
 	public void setParameters(double urlweight, double titleweight,
 			double bodyweight, double headerweight, double anchorweight,
 			double burl, double btitle, double bheader, double bbody,
@@ -56,16 +64,6 @@ public class BM25Scorer extends AScorer {
 		this.pageRankLambdaPrime = pageRankLambdaPrime;
 
 	}
-
-    ////////////bm25 data structures--feel free to modify ////////
-    
-    Map<Document,Map<String,Double>> lengths;
-    Map<String,Double> avgLengths;
-    Map<Document,Double> pagerankScores;
-    Map<String, Double> weights;
-    Map<String, Double> bvals;
-    
-    //////////////////////////////////////////
    
    //simple helper function to computer total length of anchor text
     double calcAnchorsLength(Map<String, Integer> anchors) {
@@ -152,14 +150,9 @@ public class BM25Scorer extends AScorer {
 
 	private double calcPageRankFactor(Document doc) {
 		double factor = Math.log10(pageRankLambdaPrime + (double) doc.page_rank);
-		// double factor = (double)doc.page_rank/(double)(pageRankLambdaPrime+
-		// doc.page_rank);
-		// double factor = (double)doc.page_rank/(double)(pageRankLambda +
-		// Math.pow(Math.E, (-1)*doc.page_rank));
 		return factor;
 	}
 
-	// //////////////////////////////////
 
 	public double getNetScore(Map<String, Map<String, Double>> tfs, Query q,
 			Map<String, Double> tfQuery, Document d) {

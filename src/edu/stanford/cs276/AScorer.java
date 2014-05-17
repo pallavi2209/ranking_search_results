@@ -51,17 +51,11 @@ public abstract class AScorer {
 	public Map<String, Map<String, Double>> getDocTermFreqs(Document d, Query q) {
 		// map from tf type -> queryWord -> score
 		Map<String, Map<String, Double>> tfs = new HashMap<String, Map<String, Double>>();
-//		System.out.println("\n ---------------------- \n");
-//		System.out.println("Query: " + q.toString());
-//		System.out.println("Doc: " + d.toString());
 
-//		System.out.println("Empty tfs" + tfs.toString());
 		String sUrl = TFTYPES[0]; // "url"
 		String docUrl = Stemmer.scrub(d.url);
 		String[] docUrlWords = docUrl.split("\\s+");
 
-//		System.out
-//				.println("url words:" + Arrays.asList(docUrlWords).toString());
 		tfs.put(sUrl, new HashMap<String, Double>());
 		for (String query_word : q.queryWords) {
 			Double count = 0.0d;
@@ -72,7 +66,6 @@ public abstract class AScorer {
 			}
 		}
 
-//		System.out.println("tfs url: " + tfs.get("url").toString());
 		String sTitle = TFTYPES[1]; // title
 		String docTitle = d.title;
 		if (docTitle != null) {
@@ -88,9 +81,6 @@ public abstract class AScorer {
 			}
 		}
 
-//		System.out.println("tfs title: "
-//				+ (tfs.containsKey("title") ? tfs.get("title").toString()
-//						: "No title"));
 		String sBody = TFTYPES[2];// body
 		Map<String, List<Integer>> docBodyHits = d.body_hits;
 		if (docBodyHits != null) {
@@ -104,9 +94,6 @@ public abstract class AScorer {
 			}
 		}
 
-//		System.out.println("tfs bodyhits: "
-//				+ (tfs.containsKey("body") ? tfs.get("body").toString()
-//						: "No body"));
 
 		String sHeader = TFTYPES[3]; // header
 		List<String> docHeaders = d.headers;
@@ -128,9 +115,6 @@ public abstract class AScorer {
 			}
 		}
 
-//		System.out.println("tfs header: "
-//				+ (tfs.containsKey("header") ? tfs.get("header").toString()
-//						: "No header"));
 		String sAnchor = TFTYPES[4];
 		Map<String, Integer> docAnchors = d.anchors;
 		if (docAnchors != null) {
@@ -161,34 +145,7 @@ public abstract class AScorer {
 				}
 			}
 		}
-//		System.out.println("tfs anchor: "
-//				+ (tfs.containsKey("anchor") ? tfs.get("anchor").toString()
-//						: "No anchor"));
-
-		// // //////////////////Initialization/////////////////////
-		//
-		// /*
-		// * @//TODO : Your code here
-		// */
-		//
-		// // //////////////////////////////////////////////////////
-		//
-		// // ////////handle counts//////
-		//
-		// // loop through query terms increasing relevant tfs
-		// for (String queryWord : q.queryWords) {
-		// /*
-		// * @//TODO : Your code here
-		// */
-		//
-		// }
-
-//		System.out.println("tfs map:" + tfs.toString());
 		return tfs;
 	}
-	
-
-	
-
 
 }

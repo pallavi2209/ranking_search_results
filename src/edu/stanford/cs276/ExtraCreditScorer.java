@@ -22,9 +22,9 @@ public class ExtraCreditScorer extends BM25Scorer
 		super(idfs, queryDict);
 	}
 
-	public static final Character[] alphabet = {'s',' ','-'};
+	public final Character[] alphabet = {'s',' ','-'};
 	
-	public static void computeExhaustiveOneEdits(String query,
+	public void computeExhaustiveOneEdits(String query,
 			Set<String> allCandidates) {
 		// Deletion
 		for (int idx = 0; idx < query.length(); ++idx)
@@ -56,7 +56,7 @@ public class ExtraCreditScorer extends BM25Scorer
 		}
 	}
 	
-	static List<String> checkUnigramsInQuery(String candidate, List<String> query_words, List<String> qTermsInUrl) {
+	public List<String> checkUnigramsInQuery(String candidate, List<String> query_words, List<String> qTermsInUrl) {
 		String[] termsCand= candidate.split(" ");
 		//check if all unigrams of this candidate are present in our query, then add to candidates
 		for (int j = 0; j < termsCand.length; j++) {
@@ -81,7 +81,7 @@ public class ExtraCreditScorer extends BM25Scorer
 		return netScore;
 	}
 
-	public static double calcURLrelevance(List<String> queryWords, String url) {
+	public double calcURLrelevance(List<String> queryWords, String url) {
 		
 		Map<String, Integer> qTermsInUrl = new HashMap<String, Integer>();
 		int numMatch = 0;
@@ -116,18 +116,4 @@ public class ExtraCreditScorer extends BM25Scorer
 		double relScore = 1.0d + (double)numMatch*0.01d;
 		return relScore;
 	}
-	
-	public static void main(String args[]){
-		String url = "http://football.stanford.footballs/news/2011/september/cardinal_to_footballtickets-090711.html";
-		List<String> q  = new ArrayList<String>();
-		q.add("football");
-		q.add("tickets");
-		q.add("sales");
-	
-		System.out.println(q.toString().split("//s+").length);
-	
-		System.out.println(calcURLrelevance(q, url));
-		System.out.println(Stemmer.scrub(url));
-	}
-	
 }

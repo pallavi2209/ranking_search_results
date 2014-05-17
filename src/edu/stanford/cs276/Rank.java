@@ -13,7 +13,6 @@ import edu.stanford.cs276.util.Pair;
 public class Rank 
 {
 
-	static Map<Query,List<Pair<String,Double>>> queryRankingsWithscores = new HashMap<Query,List<Pair<String,Double>>>();
 	private static Map<Query,List<String>> score(Map<Query,Map<String, Document>> queryDict, String scoreType,
 			Map<String,Double> idfs)
 	{
@@ -54,7 +53,6 @@ public class Rank
 				}	
 			});
 			
-			queryRankingsWithscores.put(query, urlAndScores);
 			//put completed rankings into map
 			List<String> curRankings = new ArrayList<String>();
 			for (Pair<String,Double> urlAndScore : urlAndScores){
@@ -207,9 +205,8 @@ public class Rank
 		//print results and save them to file 
 		String outputFilePath =  "ranked.txt";
 		writeRankedResultsToFile(queryRankings,outputFilePath);
-		//writeRankedResultsToFileWithScores(queryRankingsWithscores, outputFilePath);
 		
 		//print results
-		//printRankedResults(queryRankings);
+		printRankedResults(queryRankings);
 	}
 }

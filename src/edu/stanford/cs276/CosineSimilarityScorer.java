@@ -37,7 +37,6 @@ public class CosineSimilarityScorer extends AScorer
 	double bodyweight = 1.0;
 	double headerweight = 7.5;
 	double anchorweight = 1.2;
-
     
     double smoothingBodyLength = 500;
     //////////////////////////////////////////
@@ -81,52 +80,6 @@ public class CosineSimilarityScorer extends AScorer
 		}
 		
 		return score;
-	}
-
-	
-	private  static DecimalFormat df = new DecimalFormat("#.#####");
-	
-	public void printAllScore(Map<String,Map<String, Double>> tfs, Query q, Map<String,Double> tfQuery,Document d)
-	{
-
-		double urls= 0.0, titles=0.0, bodys=0.0, headers=0.0, anchors=0.0;
-		for (String query_word : q.queryWords) {
-			double tfQueryWord;
-			double tfDocUrl = 0.0d, tfDocTitle = 0.0d, tfDocBody= 0.0d, tfDocHeader= 0.0d, tfDocAnchor= 0.0d; 
-			tfQueryWord = tfQuery.get(query_word);
-			if(tfs.containsKey(URL)){
-				if(tfs.get(URL).containsKey(query_word)){
-					tfDocUrl = tfs.get(URL).get(query_word);
-				}
-			}
-			if(tfs.containsKey(TITLE)){
-				if(tfs.get(TITLE).containsKey(query_word)){
-					tfDocTitle = tfs.get(TITLE).get(query_word);
-				}
-			}
-			if(tfs.containsKey(BODY)){
-				if(tfs.get(BODY).containsKey(query_word)){
-					tfDocBody = tfs.get(BODY).get(query_word);
-				}
-			}
-			if(tfs.containsKey(HEADER)){
-				if(tfs.get(HEADER).containsKey(query_word)){
-					tfDocHeader = tfs.get(HEADER).get(query_word);
-				}
-			}
-			if(tfs.containsKey(ANCHOR)){
-				if(tfs.get(ANCHOR).containsKey(query_word)){
-					tfDocAnchor = tfs.get(ANCHOR).get(query_word);
-				}
-			}
-			
-			//Double termScore = tfQueryWord*((urlweight*tfDocUrl) + (titleweight*tfDocTitle) + (bodyweight*tfDocBody) + (headerweight*tfDocHeader) + (anchorweight*tfDocAnchor));
-			urls += tfQueryWord * tfDocUrl;
-			titles += tfQueryWord * tfDocTitle;
-			bodys += tfQueryWord*tfDocBody;
-			headers += tfQueryWord* tfDocHeader;
-			anchors += tfQueryWord* tfDocAnchor;
-		}
 	}
 	
 	public void normalizeTFs(Map<String,Map<String, Double>> tfs,Document d, Query q)

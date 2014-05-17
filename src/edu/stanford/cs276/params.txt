@@ -381,6 +381,27 @@ double boost = 1.0 +  ((0.01/((double)diff +0.5)) * 1.0/(double)ratio);
 
 --------------
 
-0.8846 bm25
-0.8866 window+bm
+scores at 5:20pm 16thMay
+
+training set:>>>>>
+cosine: 0.8651
+bm25: 0.8901
+cosine + window: 0.8655
+bm25 + window: 0.8925
+bm25+ extra: 0.8915
+
+On dev set:
+cosine: 0.8442
+bm25: 0.8770
+cosine + window: 0.8460
+bm25 + window: 0.8802
+bm25+ extra: 0.8778
+
+On 2013 data:
+cosine: 0.8611
+bm25: 0.8676
+cosine + window: 0.8623
+bm25 + window: 0.8750
+bm25+ extra: 0.8671
+
 
