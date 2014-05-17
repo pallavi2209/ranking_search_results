@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import edu.stanford.cs276.util.Stemmer;
 import edu.stanford.cs276.util.stemmer.*;
 
 public abstract class AScorer {
@@ -56,7 +57,7 @@ public abstract class AScorer {
 
 //		System.out.println("Empty tfs" + tfs.toString());
 		String sUrl = TFTYPES[0]; // "url"
-		String docUrl = scrub(d.url);
+		String docUrl = Stemmer.scrub(d.url);
 		String[] docUrlWords = docUrl.split("\\s+");
 
 //		System.out
@@ -65,7 +66,7 @@ public abstract class AScorer {
 		for (String query_word : q.queryWords) {
 			Double count = 0.0d;
 			for (int i = 0; i < docUrlWords.length; i++) {
-				if (getStem(query_word).equals(getStem(docUrlWords[i]))) {
+				if (Stemmer.getStem(query_word).equals(Stemmer.getStem(docUrlWords[i]))) {
 					tfs.get(sUrl).put(query_word, count += INCR);
 				}
 			}
@@ -80,7 +81,7 @@ public abstract class AScorer {
 			for (String query_word : q.queryWords) {
 				Double count = 0.0d;
 				for (int i = 0; i < docTitleWords.length; i++) {
-					if (getStem(query_word).equals(getStem(docTitleWords[i]))) {
+					if (Stemmer.getStem(query_word).equals(Stemmer.getStem(docTitleWords[i]))) {
 						tfs.get(sTitle).put(query_word, count += INCR);
 					}
 				}
@@ -119,7 +120,7 @@ public abstract class AScorer {
 					String[] docHeaderWords = string.toLowerCase().split("\\s+");
 
 					for (int j = 0; j < docHeaderWords.length; j++) {
-						if (getStem(query_word).equals(getStem(docHeaderWords[j]))) {
+						if (Stemmer.getStem(query_word).equals(Stemmer.getStem(docHeaderWords[j]))) {
 							tfs.get(sHeader).put(query_word, count += INCR);
 						}
 					}
@@ -145,7 +146,7 @@ public abstract class AScorer {
 							.valueOf((double) anchorEntry.getValue());
 
 					for (int j = 0; j < anchorWords.length; j++) {
-						if (getStem(query_word).equals(getStem(anchorWords[j]))) {
+						if (Stemmer.getStem(query_word).equals(Stemmer.getStem(anchorWords[j]))) {
 							if (tfs.get(sAnchor).containsKey(query_word)) {
 								Double prevCount = tfs.get(sAnchor).get(
 										query_word);
@@ -186,19 +187,8 @@ public abstract class AScorer {
 		return tfs;
 	}
 	
-	private String getStem(String word){
-		String stem_word = word;
-		try {
-			stem_word = EnglishSnowballStemmerFactory.getInstance().process(word);
 
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return stem_word;
-	}
 	
-	public static String scrub(String input){
-		return input.toLowerCase().replaceAll("[^0-9a-z]+", " ").replace("\\s+", " ").trim();
-	}
+
 
 }

@@ -10,21 +10,19 @@ import java.util.Map.Entry;
 
 import com.sun.org.apache.bcel.internal.generic.GETSTATIC;
 
+import edu.stanford.cs276.util.Stemmer;
 import edu.stanford.cs276.util.StopWordHandler;
 import edu.stanford.cs276.util.stemmer.EnglishSnowballStemmerFactory;
 
-public class ExtraCreditScorer extends SmallestWindowScorer
+public class ExtraCreditScorer extends BM25Scorer
 {
 
 	public ExtraCreditScorer(Map<String, Double> idfs,Map<Query,Map<String, Document>> queryDict) 
 	{
 		super(idfs, queryDict);
 	}
-	
-	
-	///////start bm25 code
 
-	public static final Character[] alphabet = {'s',' ',};
+	public static final Character[] alphabet = {'s',' ','-'};
 	
 	public static void computeExhaustiveOneEdits(String query,
 			Set<String> allCandidates) {
@@ -58,16 +56,12 @@ public class ExtraCreditScorer extends SmallestWindowScorer
 		}
 	}
 	
-	public static String scrub(String input){
-		return input.toLowerCase().replaceAll("[^0-9a-z]+", " ").replace("\\s+", " ").trim();
-	}
-	
 	static List<String> checkUnigramsInQuery(String candidate, List<String> query_words, List<String> qTermsInUrl) {
 		String[] termsCand= candidate.split(" ");
 		//check if all unigrams of this candidate are present in our query, then add to candidates
 		for (int j = 0; j < termsCand.length; j++) {
 			String currentTermOfQuery = termsCand[j];
-			if(query_words.contains(getStem(currentTermOfQuery))){
+			if(query_words.contains(Stemmer.getStem(currentTermOfQuery))){
 				if(!qTermsInUrl.contains(currentTermOfQuery)){
 					qTermsInUrl.add(currentTermOfQuery);
 				}
@@ -81,15 +75,9 @@ public class ExtraCreditScorer extends SmallestWindowScorer
 		Map<String,Map<String, Double>> tfs = this.getDocTermFreqs(d,q);
 		this.normalizeTFs(tfs, d, q);
 		Map<String,Double> tfQuery = getQueryFreqs(q);
-		
-		double closenessOfFirstWord = calcCloseness(d);
-		double uniquenessQueryTermsInDoc = calcUniqueness(q, tfs);
 		double relevanceURL = calcURLrelevance(q.queryWords, d.url);
-		
-		double score = this.getWindowScore(d, q, tfs, tfQuery);
-		//double netScore = score+ (1+Math.pow(Math.E, (-1.0d)*closenessOfFirstWord) + uniquenessQueryTermsInDoc);
-		
-		double netScore = Math.log10(score)+Math.log10(closenessOfFirstWord)+Math.log10(uniquenessQueryTermsInDoc)+Math.log10(relevanceURL);
+		double score = this.getNetScore(tfs, q, tfQuery, d);
+		double netScore = Math.log10(score)+Math.log10(relevanceURL);
 		return netScore;
 	}
 
@@ -101,17 +89,17 @@ public class ExtraCreditScorer extends SmallestWindowScorer
 		
 		List<String> stemmedQwords = new ArrayList<String>();
 		for (String string : queryWords) {
-			stemmedQwords.add(getStem(string));
+			stemmedQwords.add(Stemmer.getStem(string));
 		}
 		
 		for (String string : strPartial) {
 			List<String> qTermsInPartialUrl= new ArrayList<String>();
-			String strUrlpart = scrub(string);
+			String strUrlpart = Stemmer.scrub(string);
 			Set<String> allCandidates = new HashSet<String>();
 			allCandidates.add(strUrlpart);
 			computeExhaustiveOneEdits(strUrlpart, allCandidates);
 			for (String cand : allCandidates) {
-				checkUnigramsInQuery(cand, stemmedQwords, qTermsInPartialUrl);
+				checkUnigramsInQuery(cand, queryWords, qTermsInPartialUrl);
 			}
 			for (String term : qTermsInPartialUrl) {
 				int count = 1;
@@ -125,65 +113,9 @@ public class ExtraCreditScorer extends SmallestWindowScorer
 			numMatch+=num;
 		}
 		
-		double relScore = 1.0d + (double)numMatch*0.1d;
+		double relScore = 1.0d + (double)numMatch*0.01d;
 		return relScore;
 	}
-
-	private double calcUniqueness(Query q, Map<String, Map<String, Double>> tfs) {
-		double uniquenessQueryTermsInDoc;
-		List<String> qWords = new ArrayList<String>();
-		for (String string : q.queryWords) {
-			qWords.add(string);
-		}
-		int numQueryWords = StopWordHandler.removeStopWords(qWords).size();
-		//int numQueryWords = qWords.size();
-		List<String> qTermsInDoc = new ArrayList<String>();
-		for (Entry<String,Map<String, Double>> entry : tfs.entrySet()) {
-			for (Entry<String, Double> mapEntry : entry.getValue().entrySet()) {
-				String word = mapEntry.getKey();
-				if(!qTermsInDoc.contains(word) && !StopWordHandler.isStopWord(word)){
-					qTermsInDoc.add(mapEntry.getKey());
-				}
-			}
-		}
-		int numQTermsInDoc =  qTermsInDoc.size();
-		double numUniqueTerms = (double)numQTermsInDoc/(double)numQueryWords;
-		uniquenessQueryTermsInDoc = numUniqueTerms;
-		return uniquenessQueryTermsInDoc;
-	}
-
-	private double calcCloseness(Document d) {
-		double closenessOfFirstWord = 0.0d;
-		int closestIndex = Integer.MAX_VALUE;
-		if(d.body_hits!=null){
-			for (Entry<String, List<Integer>> entry : d.body_hits.entrySet()) {
-				if (!StopWordHandler.isStopWord(entry.getKey())) {
-					for (int index : entry.getValue()) {
-						closestIndex = (index < closestIndex) ? index
-								: closestIndex;
-					}
-				}
-			}
-			
-//			int zone_doc_length= d.body_length/5;
-//			for(int i = 0; i<5 ; i++){
-//				int minIndex = i*zone_doc_length;
-//				int maxIndex = (i+1)*zone_doc_length;
-//				if(closestIndex>=minIndex && closestIndex<=maxIndex){
-//					closenessOfFirstWord = Math.pow(Math.E, ((i+1)));
-//				}
-//			}
-			if(closestIndex<=100){
-				closenessOfFirstWord = closestIndex;
-			}
-		}
-		closenessOfFirstWord = 1+Math.pow(Math.E, (-1.0d)*closestIndex);
-		return closenessOfFirstWord;
-	}
-
-	/*
-	 * @//TODO : Your code here
-	 */
 	
 	public static void main(String args[]){
 		String url = "http://football.stanford.footballs/news/2011/september/cardinal_to_footballtickets-090711.html";
@@ -195,35 +127,7 @@ public class ExtraCreditScorer extends SmallestWindowScorer
 		System.out.println(q.toString().split("//s+").length);
 	
 		System.out.println(calcURLrelevance(q, url));
-		System.out.println(scrub(url));
+		System.out.println(Stemmer.scrub(url));
 	}
-	
-	private static String getStem(String word){
-		String stem_word = word;
-		try {
-			stem_word = EnglishSnowballStemmerFactory.getInstance().process(word);
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return stem_word;
-	}
-	
-//	private static String getStemString(String string){
-//		StringBuilder strBuilder = new StringBuilder();
-//		String[] words = string.split("//s+");
-//		for (String word : words) {
-//			String stem_word = word;
-//			try {
-//			stem_word = EnglishSnowballStemmerFactory.getInstance().process(word);
-//			} catch (Exception e) {
-//				e.printStackTrace();
-//			}
-//			strBuilder.append(stem_word);
-//			strBuilder.append(" ");
-//		}
-//		return strBuilder.toString().trim();
-//	}
-	
 	
 }

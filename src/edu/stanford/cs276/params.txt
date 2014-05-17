@@ -327,4 +327,60 @@ Comparison of cosine, bm and window on dev:
 cosine: 0.8440325686695546
 bm25: 0.8657326981235276
 window+bm: 0.8670094205525442
+------------------
+
+urlweight: 8.0
+titleweight: 6.0
+bodyweight: 1.0
+headerweight: 7.5
+anchorweight: 1.2
+burl: 1.0
+btitle: 1.0
+bheader: 1.0
+bbody: 1.0
+banchor: 1.0
+k1: 50.0
+pageRankLambda: 80.0
+pageRankLambdaPrime: 1.0
+B: 0.125
+
+window+bm: 0.8867676528293046
+bm: 0.8781448201288472
+
+
+-------------------
+scores at 1:43pm
+
+Cosine:
+train: 0.8653422910702695
+dev: 0.8440325686695546
+
+bm25:
+train: 0.8745498675957323
+dev: 0.8658697949061925
+
+window+bm25:
+train:0.8866582170826245
+dev: 0.8668242870320665
+
+window + cosine:
+train:0.8658746983266733
+dev: 0.8443038106910125
+
+-----------------
+
+window training:
+double boost = 1.0 + 0.01 * Math.pow(diff, (double)(1/2));
+0.8842545243073554
+
+
+double boost = 1.0 +  B/((double)diff + 0.5);
+0.887130664740971
+
+double boost = 1.0 +  ((0.01/((double)diff +0.5)) * 1.0/(double)ratio);
+
+--------------
+
+0.8846 bm25
+0.8866 window+bm
 

@@ -210,6 +210,6 @@ public class Rank
 		//writeRankedResultsToFileWithScores(queryRankingsWithscores, outputFilePath);
 		
 		//print results
-		printRankedResults(queryRankings);
+		//printRankedResults(queryRankings);
 	}
 }
