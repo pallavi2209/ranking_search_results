@@ -204,7 +204,7 @@ public class Rank
 		
 		//print results and save them to file 
 		String outputFilePath =  "ranked.txt";
-		writeRankedResultsToFile(queryRankings,outputFilePath);
+		//writeRankedResultsToFile(queryRankings,outputFilePath);
 		
 		//print results
 		printRankedResults(queryRankings);

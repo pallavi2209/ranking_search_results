@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
-import com.sun.org.apache.bcel.internal.generic.GETSTATIC;
+//import com.sun.org.apache.bcel.internal.generic.GETSTATIC;
 
 import edu.stanford.cs276.util.Stemmer;
 import edu.stanford.cs276.util.StopWordHandler;
